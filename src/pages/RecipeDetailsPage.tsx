@@ -14,7 +14,7 @@ const dummyRecipesDetails = [
   {
     id: "1",
     name: "Salada de Quinoa com Vegetais",
-    image: "https://via.placeholder.com/600x400/90EE90/FFFFFF?text=Salada+Quinoa",
+    image: "https://images.unsplash.com/photo-1512621776951-a579fd9f8ed8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Uma salada refrescante e nutritiva, perfeita para um almoço leve ou acompanhamento. Rica em proteínas e fibras.",
     ingredients: [
       "1 xícara de quinoa cozida",
@@ -42,7 +42,7 @@ const dummyRecipesDetails = [
   {
     id: "2",
     name: "Smoothie Verde Detox",
-    image: "https://via.placeholder.com/600x400/90EE90/FFFFFF?text=Smoothie+Verde",
+    image: "https://images.unsplash.com/photo-1505253716333-1d5369c12519?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Um smoothie energizante e desintoxicante, ideal para começar o dia ou como um lanche rápido.",
     ingredients: [
       "1 xícara de espinafre fresco",
@@ -68,7 +68,7 @@ const dummyRecipesDetails = [
   {
     id: "3",
     name: "Frango Grelhado com Batata Doce",
-    image: "https://via.placeholder.com/600x400/FFA07A/FFFFFF?text=Frango+Batata",
+    image: "https://images.unsplash.com/photo-1590940149700-31329b21117b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Uma refeição completa e balanceada, perfeita para o pós-treino ou para marmitas.",
     ingredients: [
       "1 filé de peito de frango (150g)",
@@ -93,7 +93,7 @@ const dummyRecipesDetails = [
   {
     id: "4",
     name: "Omelete de Legumes",
-    image: "https://via.placeholder.com/600x400/FFA07A/FFFFFF?text=Omelete",
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Um café da manhã ou lanche rápido e rico em proteínas, com a adição de legumes frescos.",
     ingredients: [
       "2 ovos grandes",
@@ -118,7 +118,7 @@ const dummyRecipesDetails = [
   {
     id: "5",
     name: "Sopa de Abóbora com Gengibre",
-    image: "https://via.placeholder.com/600x400/90EE90/FFFFFF?text=Sopa+Abóbora",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Uma sopa cremosa e reconfortante, perfeita para dias frios, com um toque picante de gengibre.",
     ingredients: [
       "500g de abóbora cabotiá picada",
@@ -146,7 +146,7 @@ const dummyRecipesDetails = [
   {
     id: "6",
     name: "Pão de Queijo Fit",
-    image: "https://via.placeholder.com/600x400/FFA07A/FFFFFF?text=Pão+Fit",
+    image: "https://images.unsplash.com/photo-1583338918696-211122221210?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Uma versão mais saudável e leve do clássico pão de queijo, ideal para lanches.",
     ingredients: [
       "1 xícara de polvilho doce",
