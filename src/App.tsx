@@ -6,7 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import AuthPage from "./pages/AuthPage";
 import ExplorePage from "./pages/ExplorePage";
-import RecipeDetailsPage from "./pages/RecipeDetailsPage"; // Importando a página de detalhes da receita
+import RecipeDetailsPage from "./pages/RecipeDetailsPage";
+import FavoritesPage from "./pages/FavoritesPage"; // Importando a nova página
+import MealPrepPage from "./pages/MealPrepPage"; // Importando a nova página
+import NutritionalGuidePage from "./pages/NutritionalGuidePage"; // Importando a nova página
+import ShoppingListPage from "./pages/ShoppingListPage"; // Importando a nova página
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,14 +40,45 @@ const App = () => (
             }
           />
           <Route
-            path="/recipe/:id" // Nova rota para detalhes da receita
+            path="/recipe/:id"
             element={
               <Layout>
                 <RecipeDetailsPage />
               </Layout>
             }
           />
-          {/* ROTAS PARA AS OUTRAS TELAS SERÃO ADICIONADAS AQUI */}
+          <Route
+            path="/favorites" // Nova rota
+            element={
+              <Layout>
+                <FavoritesPage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/meal-prep" // Nova rota
+            element={
+              <Layout>
+                <MealPrepPage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/nutritional-guide" // Nova rota
+            element={
+              <Layout>
+                <NutritionalGuidePage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/shopping-list" // Nova rota
+            element={
+              <Layout>
+                <ShoppingListPage />
+              </Layout>
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
