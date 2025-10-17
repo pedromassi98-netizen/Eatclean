@@ -10,7 +10,7 @@ const NutritionalGuidePage = () => {
     <div className="container mx-auto p-4 pb-20"> {/* Adicionado pb-20 para o footer */}
       <Card className="overflow-hidden rounded-lg shadow-lg mb-6">
         <img
-          src="https://images.unsplash.com/photo-1542838132-925701071792?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="/public/pedro_massi_Crie_uma_imagem_toda_com_alimentos_saudáveis,_pode_usar_um_fundo_01d4a700-c002-4ff9-89be-668a3358c949.png"
           alt="Guia Nutricional"
           className="w-full h-64 object-cover"
         />
