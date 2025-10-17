@@ -10,7 +10,7 @@ const NutritionalGuidePage = () => {
     <div className="container mx-auto p-4 pb-20"> {/* Adicionado pb-20 para o footer */}
       <Card className="overflow-hidden rounded-lg shadow-lg mb-6">
         <img
-          src="https://images.unsplash.com/photo-1542838132-925701071792?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="/Imagem Guia Nutricional.png"
           alt="Guia Nutricional"
           className="w-full h-64 object-cover"
         />
@@ -111,6 +111,7 @@ const NutritionalGuidePage = () => {
               <p>Ajudam a manter a energia durante o dia e reduzem a vontade de doces.</p>
               <p>São ricas em antioxidantes naturais, que combatem o envelhecimento celular.</p>
               <p>Prefira consumir as frutas inteiras, e não em sucos, para aproveitar melhor as fibras.</p>
+              <p>O ideal é consumir de 3 a 5 porções de frutas por dia.</p>
               <p className="font-semibold">👉 Exemplos: banana, maçã, laranja, mamão, morango, abacaxi.</p>
             </div>
             <Separator />
