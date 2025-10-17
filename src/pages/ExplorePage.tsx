@@ -4,7 +4,8 @@ import React from "react";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Card } from "@/components/ui/card";
-import { MadeWithDyad } from "@/components/made-with-dyad"; // Mantendo por enquanto, pode ser movido depois
+import { MadeWithDyad } from "@/components/made-with-dyad";
+import { useNavigate } from "react-router-dom"; // Importar useNavigate
 
 // Placeholder para dados de receitas
 const dummyRecipes = [
@@ -61,10 +62,11 @@ const dummyRecipes = [
 const ExplorePage = () => {
   const [searchTerm, setSearchTerm] = React.useState("");
   const [activeTab, setActiveTab] = React.useState("todas");
+  const navigate = useNavigate(); // Inicializar useNavigate
 
   const categories = [
     { value: "todas", label: "Todas" },
-    { value: "cafe-da-manha", label: "Café da Manhã" },
+    { value: "cafe-da-manha", label: "Café da Manã" },
     { value: "almoco-janta", label: "Almoço/Janta" },
     { value: "snacks-lanches", label: "Snacks/Lanches" },
     { value: "sopas-caldos", label: "Sopas e Caldos" },
@@ -82,6 +84,10 @@ const ExplorePage = () => {
       recipe.category.toLowerCase().replace(/ /g, "-").replace(/\//g, "-") === activeTab;
     return matchesSearch && matchesCategory;
   });
+
+  const handleRecipeClick = (id: string) => {
+    navigate(`/recipe/${id}`); // Navega para a página de detalhes da receita
+  };
 
   return (
     <div className="container mx-auto p-4 pb-20"> {/* Adicionado pb-20 para o footer */}
@@ -111,7 +117,11 @@ const ExplorePage = () => {
           <TabsContent key={category.value} value={category.value} className="mt-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {filteredRecipes.map((recipe) => (
-                <Card key={recipe.id} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+                <Card
+                  key={recipe.id}
+                  className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+                  onClick={() => handleRecipeClick(recipe.id)} // Adiciona o evento de clique
+                >
                   <img
                     src={recipe.image}
                     alt={recipe.name}
