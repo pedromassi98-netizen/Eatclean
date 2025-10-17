@@ -66,7 +66,7 @@ const ExplorePage = () => {
 
   const categories = [
     { value: "todas", label: "Todas" },
-    { value: "cafe-da-manha", label: "Café da Manã" },
+    { value: "cafe-da-manha", label: "Café da Manhã" }, // Corrigido aqui
     { value: "almoco-janta", label: "Almoço/Janta" },
     { value: "snacks-lanches", label: "Snacks/Lanches" },
     { value: "sopas-caldos", label: "Sopas e Caldos" },
