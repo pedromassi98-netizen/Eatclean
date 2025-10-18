@@ -20,7 +20,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "1",
     name: "Salada de Quinoa com Vegetais",
-    image: "https://images.unsplash.com/photo-1512621776951-a579fd9ea7e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Nova imagem de placeholder
+    image: "/salada-quinoa.jpg", // Caminho atualizado para a imagem na pasta public
     description: "Uma salada refrescante e nutritiva, perfeita para um almoço leve ou acompanhamento. Rica em proteínas e fibras.",
     ingredients: [
       "1 xícara de quinoa cozida",
