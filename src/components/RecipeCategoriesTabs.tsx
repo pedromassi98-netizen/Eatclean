@@ -15,7 +15,7 @@ const RecipeCategoriesTabs: React.FC<RecipeCategoriesTabsProps> = ({
 }) => {
   const categories: (Recipe["category"] | "Todas")[] = [
     "Todas",
-    "Café da Manhã", // Corrigido
+    "Café da Manhã",
     "Almoço/Jantar",
     "Lanches",
     "Sopas e Caldos",
@@ -23,6 +23,7 @@ const RecipeCategoriesTabs: React.FC<RecipeCategoriesTabsProps> = ({
     "Bebidas",
     "Sobremesas",
     "Molhos",
+    "Acompanhamentos", // Nova categoria adicionada
   ];
 
   return (
