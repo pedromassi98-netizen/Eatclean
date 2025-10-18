@@ -79,7 +79,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "3",
     name: "Frango Grelhado com Batata Doce",
-    image: "/frango grelhada- batata doce.png", // Caminho da imagem atualizado
+    image: "/frango-grelhado-batata-doce.png", // Caminho da imagem corrigido
     description: "Uma refeição completa e balanceada, perfeita para o pós-treino ou para marmitas.",
     ingredients: [
       "1 filé de peito de frango (150g)",
@@ -124,7 +124,7 @@ export const allRecipes: Recipe[] = [
     nutritionalInfo: {
       calories: 280,
       protein: "15g",
-      carbs: "10g",
+  carbs: "10g",
       fat: "18g",
     },
     prepTime: 15,
