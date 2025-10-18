@@ -14,7 +14,11 @@ export interface Recipe {
   instructions: string[];
   nutritionalInfo: NutritionalInfo;
   prepTime: number;
-  category: "Todas" | "Café da Manhã" | "Almoço/Jantar" | "Lanches" | "Sopas e Caldos" | "Sobremesas" | "Bebidas" | "Pães e Massas" | "Molhos" | "Acompanhamentos";
+  category: "Todas" | "Café da Manhã" | "Almoço/Jantar" | "Lanches" | "Sopas e Caldos" | "Sobremesas" | "Bebidas" | "Pães e Massas" | "Molhos" | "Acompanhamentos" | "Lanches/Snacks";
+  portions?: number;
+  difficulty?: "Muito Fácil" | "Fácil" | "Médio" | "Difícil" | "Muito Difícil";
+  tags?: string[];
+  substitutions?: { [key: string]: string };
 }
 
 export const allRecipes: Recipe[] = [
@@ -1216,5 +1220,641 @@ export const allRecipes: Recipe[] = [
     },
     "prepTime": 45,
     "category": "Almoço/Jantar"
+  },
+  {
+    "id": "40",
+    "name": "Nhoque de Batata Doce Fit",
+    "image": "/nhoque-batata-doce.jpg",
+    "description": "Um nhoque saudável e delicioso, perfeito para um almoço ou jantar nutritivo.",
+    "ingredients": [
+      "500g de batata doce cozida",
+      "1 xícara de farinha de arroz",
+      "1 ovo",
+      "Sal e noz moscada",
+      "Molho: 2 tomates picados",
+      "Manjericão fresco",
+      "2 dentes de alho",
+      "Azeite"
+    ],
+    "instructions": [
+      "Amasse a batata doce ainda quente",
+      "Adicione ovo, sal e noz moscada",
+      "Acrescente farinha aos poucos até dar liga",
+      "Enrole em cilindros e corte em pedaços de 2cm",
+      "Marque com garfo para dar formato",
+      "Ferva água com sal",
+      "Cozinhe os nhoques até subirem à superfície",
+      "Para o molho: refogue alho, tomate e manjericão",
+      "Misture os nhoques ao molho e sirva"
+    ],
+    "nutritionalInfo": {
+      "calories": 235,
+      "protein": "8g",
+      "carbs": "42g",
+      "fat": "4g"
+    },
+    "prepTime": 40,
+    "category": "Almoço/Jantar",
+    "portions": 4,
+    "difficulty": "Médio",
+    "tags": ["sem glúten", "vegetariano", "italiano"],
+    "substitutions": {
+      "batata doce": "abóbora ou mandioquinha",
+      "farinha arroz": "farinha de aveia",
+      "molho tomate": "molho branco fit"
+    }
+  },
+  {
+    "id": "41",
+    "name": "Mingau de Aveia Proteico",
+    "image": "/mingau-aveia.jpg",
+    "description": "Um mingau cremoso e rico em proteínas, ideal para um café da manhã completo.",
+    "ingredients": [
+      "1/2 xícara de aveia em flocos",
+      "1 scoop de whey baunilha",
+      "1 xícara de leite desnatado",
+      "1/2 banana fatiada",
+      "1 colher de pasta de amendoim",
+      "Canela em pó",
+      "Mel para finalizar"
+    ],
+    "instructions": [
+      "Em uma panela, aqueça o leite",
+      "Adicione a aveia e mexa constantemente",
+      "Cozinhe por 5min até engrossar",
+      "Retire do fogo e adicione o whey",
+      "Mexa bem até incorporar",
+      "Transfira para tigela",
+      "Cubra com banana, pasta de amendoim e canela",
+      "Regue com mel se desejar"
+    ],
+    "nutritionalInfo": {
+      "calories": 295,
+      "protein": "26g",
+      "carbs": "38g",
+      "fat": "6g"
+    },
+    "prepTime": 8,
+    "category": "Café da Manhã",
+    "portions": 1,
+    "difficulty": "Muito Fácil",
+    "tags": ["proteico", "conforto", "inverno"],
+    "substitutions": {
+      "aveia": "quinoa em flocos",
+      "whey": "albumina",
+      "leite": "leite de amêndoas",
+      "banana": "maçã ralada"
+    }
+  },
+  {
+    "id": "42",
+    "name": "Almôndegas de Peru ao Molho",
+    "image": "/almondegas-peru.jpg",
+    "description": "Almôndegas de peru leves e saborosas, servidas com um molho delicioso.",
+    "ingredients": [
+      "500g de carne de peru moída",
+      "1 ovo",
+      "3 colheres de aveia",
+      "1 cebola ralada",
+      "Sal, pimenta e salsa",
+      "Molho: 400g tomate pelado",
+      "Manjericão e orégano",
+      "1 cenoura ralada"
+    ],
+    "instructions": [
+      "Misture peru, ovo, aveia, metade da cebola e temperos",
+      "Modele almôndegas do tamanho de uma noz",
+      "Em uma frigideira, doure as almôndegas",
+      "Reserve as almôndegas",
+      "Na mesma panela, refogue cebola restante",
+      "Adicione tomate, cenoura e ervas",
+      "Cozinhe por 10min",
+      "Retorne as almôndegas ao molho",
+      "Cozinhe por mais 10min em fogo baixo"
+    ],
+    "nutritionalInfo": {
+      "calories": 255,
+      "protein": "32g",
+      "carbs": "14g",
+      "fat": "8g"
+    },
+    "prepTime": 35,
+    "category": "Almoço/Jantar",
+    "portions": 4,
+    "difficulty": "Médio",
+    "tags": ["proteico", "marmita", "molho"],
+    "substitutions": {
+      "peru": "frango ou carne magra",
+      "aveia": "farelo de aveia",
+      "tomate pelado": "molho de tomate caseiro"
+    }
+  },
+  {
+    "id": "43",
+    "name": "Sorvete de Banana Nice Cream",
+    "image": "/nice-cream.jpg",
+    "description": "Um sorvete vegano e sem açúcar, perfeito para refrescar e satisfazer a vontade de doce.",
+    "ingredients": [
+      "3 bananas congeladas em rodelas",
+      "2 colheres de cacau em pó 100%",
+      "1/4 xícara de leite de amêndoas",
+      "1 colher de pasta de amendoim",
+      "Essência de baunilha",
+      "Toppings: nibs de cacau, castanhas"
+    ],
+    "instructions": [
+      "Congele as bananas com antecedência (mínimo 4h)",
+      "Coloque tudo no processador ou liquidificador potente",
+      "Bata por 3-4 minutos, parando para raspar as laterais",
+      "Continue até ficar cremoso como sorvete",
+      "Sirva imediatamente (textura soft)",
+      "Ou congele por 30min para firmar mais",
+      "Finalize com toppings de escolha"
+    ],
+    "nutritionalInfo": {
+      "calories": 125,
+      "protein": "4g",
+      "carbs": "28g",
+      "fat": "1g"
+    },
+    "prepTime": 5,
+    "category": "Sobremesas",
+    "portions": 2,
+    "difficulty": "Muito Fácil",
+    "tags": ["vegano", "sem açúcar", "sobremesa", "gelado"],
+    "substitutions": {
+      "banana": "manga congelada",
+      "cacau": "morango (versão frutas)",
+      "leite amêndoas": "leite de coco",
+      "pasta amendoim": "tahine"
+    }
+  },
+  {
+    "id": "44",
+    "name": "Quiche Fit sem Massa",
+    "image": "/quiche-sem-massa.jpg",
+    "description": "Uma quiche leve e proteica, sem massa, ideal para um almoço ou jantar saudável.",
+    "ingredients": [
+      "6 ovos",
+      "200ml de leite desnatado",
+      "1 xícara de brócolis picado",
+      "100g de peito de peru em cubos",
+      "1/2 xícara de queijo cottage",
+      "1 tomate picado",
+      "Sal, pimenta e noz moscada",
+      "Queijo ralado light para gratinar"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Bata os ovos com leite e temperos",
+      "Adicione cottage e misture",
+      "Em refratário untado, distribua brócolis e peru",
+      "Adicione tomate picado",
+      "Despeje a mistura de ovos",
+      "Polvilhe queijo ralado",
+      "Asse por 30-35min até firmar e dourar",
+      "Deixe esfriar 10min antes de cortar"
+    ],
+    "nutritionalInfo": {
+      "calories": 185,
+      "protein": "16g",
+      "carbs": "8g",
+      "fat": "10g"
+    },
+    "prepTime": 40,
+    "category": "Almoço/Jantar",
+    "portions": 6,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "low carb", "marmita"],
+    "substitutions": {
+      "brócolis": "espinafre ou cogumelos",
+      "peru": "frango desfiado ou salmão",
+      "cottage": "ricota"
+    }
+  },
+  {
+    "id": "45",
+    "name": "Caldo Verde Fit",
+    "image": "/caldo-verde.jpg",
+    "description": "Uma versão saudável e reconfortante do clássico caldo verde, perfeito para dias frios.",
+    "ingredients": [
+      "500g de batata inglesa",
+      "200g de couve-manteiga fatiada fina",
+      "150g de linguiça calabresa light",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 litro de caldo de legumes",
+      "Azeite",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Descasque e corte as batatas em cubos",
+      "Refogue alho e cebola no azeite",
+      "Adicione as batatas e refogue 2min",
+      "Acrescente o caldo e cozinhe 15min",
+      "Amasse algumas batatas para engrossar",
+      "Fatie a linguiça e doure em frigideira",
+      "Adicione a couve ao caldo",
+      "Cozinhe por 3-4min apenas",
+      "Sirva com rodelas de linguiça por cima"
+    ],
+    "nutritionalInfo": {
+      "calories": 165,
+      "protein": "12g",
+      "carbs": "22g",
+      "fat": "4g"
+    },
+    "prepTime": 30,
+    "category": "Sopas e Caldos",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["tradicional", "conforto", "português"],
+    "substitutions": {
+      "batata inglesa": "mandioquinha",
+      "linguiça": "bacon de peru ou tofu defumado",
+      "couve": "espinafre"
+    }
+  },
+  {
+    "id": "46",
+    "name": "Panini Fit de Frango",
+    "image": "/panini-frango.jpg",
+    "description": "Um panini rápido e proteico com frango, ideal para um lanche ou refeição leve.",
+    "ingredients": [
+      "2 pães sírios integrais",
+      "200g de frango grelhado fatiado",
+      "2 fatias de queijo branco",
+      "Tomate fatiado",
+      "Folhas de rúcula",
+      "2 colheres de cream cheese light",
+      "Orégano e azeite em spray"
+    ],
+    "instructions": [
+      "Abra os pães ao meio",
+      "Espalhe cream cheese em ambos os lados",
+      "Monte: frango, queijo, tomate e rúcula",
+      "Polvilhe orégano",
+      "Aqueça sanduicheira ou frigideira",
+      "Borrife azeite na superfície externa",
+      "Grelhe por 3-4min até dourar e queijo derreter",
+      "Corte ao meio e sirva quente"
+    ],
+    "nutritionalInfo": {
+      "calories": 325,
+      "protein": "34g",
+      "carbs": "32g",
+      "fat": "8g"
+    },
+    "prepTime": 15,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "rápido", "lanche"],
+    "substitutions": {
+      "pão sírio": "pão integral ou wrap",
+      "frango": "atum ou rosbife magro",
+      "cream cheese": "pasta de grão de bico"
+    }
+  },
+  {
+    "id": "47",
+    "name": "Farofa Fit de Couve-Flor",
+    "image": "/farofa-couve-flor.jpg",
+    "description": "Uma farofa low carb e saborosa de couve-flor, perfeita como acompanhamento.",
+    "ingredients": [
+      "1 couve-flor média",
+      "2 ovos cozidos picados",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1/2 xícara de cenoura ralada",
+      "Salsinha e cebolinha",
+      "Sal, pimenta e cúrcuma",
+      "Azeite"
+    ],
+    "instructions": [
+      "Rale a couve-flor crua no ralo grosso",
+      "Ou processe em pulsos até ficar granulada",
+      "Aqueça azeite e refogue alho e cebola",
+      "Adicione cenoura e refogue 2min",
+      "Acrescente a couve-flor ralada",
+      "Tempere com sal, pimenta e cúrcuma",
+      "Refogue por 5-7min mexendo sempre",
+      "Adicione ovos picados",
+      "Finalize com salsinha e cebolinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 95,
+      "protein": "5g",
+      "carbs": "12g",
+      "fat": "3g"
+    },
+    "prepTime": 15,
+    "category": "Acompanhamentos",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["low carb", "acompanhamento", "vegetariano"],
+    "substitutions": {
+      "couve-flor": "brócolis ralado",
+      "ovos": "tofu em cubinhos",
+      "cenoura": "pimentão picado"
+    }
+  },
+  {
+    "id": "48",
+    "name": "Tilápia ao Molho de Maracujá",
+    "image": "/tilapia-maracuja.jpg",
+    "description": "Filés de tilápia com um molho agridoce de maracujá, uma opção leve e exótica.",
+    "ingredients": [
+      "2 filés de tilápia (300g)",
+      "Polpa de 2 maracujás",
+      "1/2 xícara de caldo de legumes",
+      "1 colher de mel",
+      "1 cebola roxa fatiada",
+      "Gengibre ralado",
+      "Sal e pimenta",
+      "Coentro fresco"
+    ],
+    "instructions": [
+      "Tempere os filés com sal e pimenta",
+      "Em uma frigideira, sele o peixe 2min de cada lado",
+      "Retire e reserve",
+      "Na mesma frigideira, refogue a cebola",
+      "Adicione gengibre, polpa de maracujá e caldo",
+      "Acrescente mel e cozinhe 5min",
+      "Retorne o peixe ao molho",
+      "Cozinhe por mais 3min",
+      "Finalize com coentro fresco picado"
+    ],
+    "nutritionalInfo": {
+      "calories": 275,
+      "protein": "38g",
+      "carbs": "16g",
+      "fat": "7g"
+    },
+    "prepTime": 25,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Médio",
+    "tags": ["proteico", "tropical", "gourmet"],
+    "substitutions": {
+      "tilápia": "salmão ou pescada",
+      "maracujá": "laranja ou limão siciliano",
+      "mel": "agave"
+    }
+  },
+  {
+    "id": "49",
+    "name": "Bolo de Caneca de Banana",
+    "image": "/bolo-caneca-banana.jpg",
+    "description": "Um bolo de caneca rápido e proteico, perfeito para um lanche ou sobremesa individual.",
+    "ingredients": [
+      "1 banana pequena amassada",
+      "1 ovo",
+      "2 colheres de aveia",
+      "1 scoop de whey baunilha",
+      "1/2 colher de fermento",
+      "Canela em pó",
+      "Gotas de chocolate 70%"
+    ],
+    "instructions": [
+      "Amasse a banana em uma caneca",
+      "Adicione o ovo e misture bem",
+      "Acrescente aveia, whey e canela",
+      "Adicione fermento por último",
+      "Mexa até ficar homogêneo",
+      "Coloque gotas de chocolate",
+      "Microondas por 2-3min (potência alta)",
+      "Deixe esfriar 1min antes de comer"
+    ],
+    "nutritionalInfo": {
+      "calories": 175,
+      "protein": "12g",
+      "carbs": "26g",
+      "fat": "4g"
+    },
+    "prepTime": 5,
+    "category": "Sobremesas",
+    "portions": 1,
+    "difficulty": "Muito Fácil",
+    "tags": ["rápido", "proteico", "sobremesa"],
+    "substitutions": {
+      "banana": "abóbora cozida",
+      "whey": "farinha de amêndoas",
+      "gotas chocolate": "nozes picadas"
+    }
+  },
+  {
+    "id": "50",
+    "name": "Salada de Grão de Bico Mediterrânea",
+    "image": "/salada-grao-bico.jpg",
+    "description": "Uma salada fresca e nutritiva com grão de bico, inspirada nos sabores mediterrâneos.",
+    "ingredients": [
+      "2 xícaras de grão de bico cozido",
+      "1 pepino picado",
+      "1 xícara de tomate cereja",
+      "1/2 cebola roxa",
+      "50g de queijo feta light",
+      "Azeitonas pretas",
+      "Molho: azeite, limão, orégano",
+      "Hortelã fresca"
+    ],
+    "instructions": [
+      "Escorra bem o grão de bico",
+      "Corte pepino em cubos pequenos",
+      "Corte os tomates ao meio",
+      "Pique finamente a cebola roxa",
+      "Misture tudo em uma tigela",
+      "Prepare molho: 2 col azeite + suco 1 limão + orégano",
+      "Regue a salada com o molho",
+      "Adicione queijo feta esfarelado e azeitonas",
+      "Finalize com hortelã picada",
+      "Deixe descansar 10min antes de servir"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "12g",
+      "carbs": "32g",
+      "fat": "8g"
+    },
+    "prepTime": 15,
+    "category": "Almoço/Jantar",
+    "portions": 3,
+    "difficulty": "Fácil",
+    "tags": ["vegetariano", "proteico", "mediterrâneo"],
+    "substitutions": {
+      "grão de bico": "lentilha ou feijão branco",
+      "queijo feta": "ricota temperada",
+      "hortelã": "manjericão"
+    }
+  },
+  {
+    "id": "51",
+    "name": "Camarão Grelhado com Alho e Limão",
+    "image": "/camarao-alho-limao.jpg",
+    "description": "Camarões grelhados com alho e limão, uma opção leve e cheia de sabor.",
+    "ingredients": [
+      "400g de camarão limpo",
+      "4 dentes de alho picados",
+      "Suco de 2 limões",
+      "Raspas de limão siciliano",
+      "2 colheres de azeite",
+      "Pimenta calabresa",
+      "Sal e pimenta do reino",
+      "Salsinha fresca"
+    ],
+    "instructions": [
+      "Tempere os camarões com sal, pimenta e limão",
+      "Deixe marinar por 10min",
+      "Aqueça frigideira ou grill em fogo alto",
+      "Adicione azeite e alho, refogue 1min",
+      "Acrescente os camarões",
+      "Grelhe 2min de cada lado até ficarem rosados",
+      "Regue com suco de limão",
+      "Adicione pimenta calabresa",
+      "Finalize com raspas de limão e salsinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 185,
+      "protein": "32g",
+      "carbs": "4g",
+      "fat": "5g"
+    },
+    "prepTime": 15,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "low carb", "rápido", "frutos do mar"],
+    "substitutions": {
+      "camarão": "lulas ou polvo",
+      "limão": "laranja",
+      "pimenta calabresa": "páprica defumada"
+    }
+  },
+  {
+    "id": "52",
+    "name": "Tortilha Espanhola Fit",
+    "image": "/tortilha-espanhola.jpg",
+    "description": "Uma tortilha espanhola saudável, com batatas e cebola, perfeita para qualquer refeição.",
+    "ingredients": [
+      "4 batatas médias fatiadas finas",
+      "1 cebola grande fatiada",
+      "6 ovos",
+      "Azeite em spray",
+      "Sal e pimenta",
+      "Salsinha picada"
+    ],
+    "instructions": [
+      "Cozinhe as batatas no vapor até ficarem macias",
+      "Em frigideira antiaderente, refogue a cebola",
+      "Bata os ovos com sal e pimenta",
+      "Adicione batatas e cebola aos ovos",
+      "Misture delicadamente",
+      "Aqueça frigideira média com azeite",
+      "Despeje a mistura e espalhe uniformemente",
+      "Cozinhe em fogo baixo por 10min",
+      "Vire com ajuda de prato e cozinhe mais 5min",
+      "Sirva em fatias, quente ou fria"
+    ],
+    "nutritionalInfo": {
+      "calories": 205,
+      "protein": "14g",
+      "carbs": "18g",
+      "fat": "9g"
+    },
+    "prepTime": 30,
+    "category": "Almoço/Jantar",
+    "portions": 4,
+    "difficulty": "Médio",
+    "tags": ["vegetariano", "espanhol", "proteico"],
+    "substitutions": {
+      "batata": "batata doce ou aipim",
+      "ovos inteiros": "6 claras + 2 ovos inteiros",
+      "cebola": "alho-poró"
+    }
+  },
+  {
+    "id": "53",
+    "name": "Biscoito de Polvilho Assado Fit",
+    "image": "/biscoito-polvilho.jpg",
+    "description": "Biscoitos de polvilho assados, crocantes e saudáveis, ideais para um lanche.",
+    "ingredients": [
+      "2 xícaras de polvilho azedo",
+      "1/2 xícara de água",
+      "2 colheres de azeite",
+      "1 ovo",
+      "Sal a gosto",
+      "Orégano e alho em pó"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Ferva a água com azeite e sal",
+      "Despeje sobre o polvilho e misture rápido",
+      "Deixe esfriar um pouco",
+      "Adicione o ovo e amasse até dar liga",
+      "Tempere com orégano e alho em pó",
+      "Faça bolinhas pequenas",
+      "Disponha em assadeira forrada",
+      "Asse por 20-25min até dourar e crescer",
+      "Deixe esfriar para ficarem crocantes"
+    ],
+    "nutritionalInfo": {
+      "calories": 95,
+      "protein": "3g",
+      "carbs": "18g",
+      "fat": "2g"
+    },
+    "prepTime": 25,
+    "category": "Lanches/Snacks",
+    "portions": 8,
+    "difficulty": "Fácil",
+    "tags": ["sem glúten", "snack", "crocante"],
+    "substitutions": {
+      "polvilho azedo": "polvilho doce",
+      "azeite": "óleo de coco",
+      "temperos": "queijo ralado (versão tradicional)"
+    }
+  },
+  {
+    "id": "54",
+    "name": "Bowl de Açaí Proteico",
+    "image": "/bowl-acai.jpg",
+    "description": "Um bowl de açaí energizante e rico em proteínas, perfeito para o café da manhã.",
+    "ingredients": [
+      "1 pacote de polpa de açaí (100g)",
+      "1 banana congelada",
+      "1 scoop de whey baunilha",
+      "100ml de leite de coco light",
+      "Toppings: granola fit",
+      "Frutas frescas",
+      "1 colher de pasta de amendoim",
+      "Coco ralado"
+    ],
+    "instructions": [
+      "Quebre o açaí em pedaços",
+      "Bata no liquidificador: açaí, banana, whey e leite",
+      "Bata até ficar cremoso (não líquido demais)",
+      "Despeje em um bowl",
+      "Decore com granola em uma metade",
+      "Frutas fatiadas na outra metade",
+      "Finalize com pasta de amendoim e coco",
+      "Sirva imediatamente"
+    ],
+    "nutritionalInfo": {
+      "calories": 345,
+      "protein": "22g",
+      "carbs": "48g",
+      "fat": "10g"
+    },
+    "prepTime": 10,
+    "category": "Café da Manhã",
+    "portions": 1,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "energético", "brasileiro"],
+    "substitutions": {
+      "açaí": "pitaya ou frutas vermelhas",
+      "banana": "manga congelada",
+      "leite coco": "leite de amêndoas",
+      "granola": "aveia em flocos"
+    }
   }
 ];
