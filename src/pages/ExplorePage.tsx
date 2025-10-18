@@ -1,148 +1,194 @@
 "use client";
 
 import React from "react";
+import { Link } from "react-router-dom";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Card } from "@/components/ui/card";
 import { MadeWithDyad } from "@/components/made-with-dyad";
-import { useNavigate } from "react-router-dom"; // Importar useNavigate
+import { Flame, Clock } from "lucide-react"; // Importar os ícones Flame e Clock
 
-// Placeholder para dados de receitas
-const dummyRecipes = [
+const recipes = [
   {
     id: "1",
     name: "Salada de Quinoa com Vegetais",
-    image: "https://images.unsplash.com/photo-1512621776951-a579fd9f8ed8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/salada-quinoa.jpg",
     calories: 350,
     prepTime: 20,
-    category: "Almoço/Janta",
+    description: "Uma salada leve e nutritiva, perfeita para um almoço saudável.",
+    ingredients: [
+      "1 xícara de quinoa cozida",
+      "1 pepino picado",
+      "1 tomate picado",
+      "1/2 cebola roxa picada",
+      "Folhas de hortelã fresca",
+      "Suco de 1 limão",
+      "Azeite de oliva, sal e pimenta a gosto",
+    ],
+    instructions: [
+      "Cozinhe a quinoa conforme as instruções da embalagem e deixe esfriar.",
+      "Em uma tigela grande, misture a quinoa cozida, pepino, tomate, cebola roxa e hortelã.",
+      "Tempere com suco de limão, azeite, sal e pimenta.",
+      "Misture bem e sirva.",
+    ],
   },
   {
     id: "2",
-    name: "Smoothie Verde Detox",
-    image: "https://images.unsplash.com/photo-1505253716333-1d5369c12519?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    calories: 180,
-    prepTime: 5,
-    category: "Bebidas",
+    name: "Frango Grelhado com Batata Doce",
+    image: "/frango-batata-doce.jpg",
+    calories: 480,
+    prepTime: 30,
+    description: "Uma refeição completa e rica em proteínas para o seu pós-treino.",
+    ingredients: [
+      "2 filés de peito de frango",
+      "1 batata doce média",
+      "Brócolis cozido no vapor",
+      "Azeite de oliva, alho, alecrim, sal e pimenta a gosto",
+    ],
+    instructions: [
+      "Tempere o frango com alho, sal, pimenta e alecrim. Grelhe até dourar.",
+      "Corte a batata doce em rodelas, tempere com azeite, sal e pimenta. Asse ou cozinhe no vapor.",
+      "Sirva o frango com a batata doce e brócolis.",
+    ],
   },
   {
     id: "3",
-    name: "Frango Grelhado com Batata Doce",
-    image: "https://images.unsplash.com/photo-1590940149700-31329b21117b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    calories: 420,
-    prepTime: 30,
-    category: "Marmitas Completas",
+    name: "Smoothie Verde Detox",
+    image: "/smoothie-verde.jpg",
+    calories: 200,
+    prepTime: 5,
+    description: "Um smoothie refrescante e cheio de nutrientes para começar o dia.",
+    ingredients: [
+      "1 folha de couve",
+      "1/2 maçã verde",
+      "1/2 pepino",
+      "Suco de 1/2 limão",
+      "200ml de água de coco",
+      "Gelo a gosto",
+    ],
+    instructions: [
+      "Lave bem todos os ingredientes.",
+      "Bata todos os ingredientes no liquidificador até obter uma mistura homogênea.",
+      "Sirva imediatamente.",
+    ],
   },
   {
     id: "4",
     name: "Omelete de Legumes",
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    calories: 250,
-    prepTime: 10,
-    category: "Café da Manhã",
+    image: "/omelete-legumes.jpg",
+    calories: 280,
+    prepTime: 15,
+    description: "Uma opção rápida e saudável para o café da manhã ou lanche.",
+    ingredients: [
+      "2 ovos",
+      "1/4 pimentão picado",
+      "1/4 cebola picada",
+      "Espinafre a gosto",
+      "Sal e pimenta a gosto",
+      "Azeite para untar",
+    ],
+    instructions: [
+      "Bata os ovos com sal e pimenta.",
+      "Em uma frigideira antiaderente, refogue o pimentão, a cebola e o espinafre com um fio de azeite.",
+      "Despeje os ovos batidos sobre os legumes e cozinhe até firmar.",
+      "Dobre ao meio e sirva.",
+    ],
   },
   {
     id: "5",
-    name: "Sopa de Abóbora com Gengibre",
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    calories: 200,
-    prepTime: 25,
-    category: "Sopas e Caldos",
+    name: "Wrap de Atum com Alface",
+    image: "/wrap-atum.jpg",
+    calories: 320,
+    prepTime: 10,
+    description: "Um lanche prático e saboroso, ideal para levar para o trabalho.",
+    ingredients: [
+      "1 lata de atum em água (escorrido)",
+      "2 folhas grandes de alface",
+      "1 colher de sopa de maionese light",
+      "1/4 cenoura ralada",
+      "Sal e pimenta a gosto",
+    ],
+    instructions: [
+      "Em uma tigela, misture o atum, maionese, cenoura ralada, sal e pimenta.",
+      "Espalhe a mistura sobre as folhas de alface e enrole cuidadosamente.",
+      "Sirva imediatamente ou leve para viagem.",
+    ],
   },
   {
     id: "6",
-    name: "Pão de Queijo Fit",
-    image: "https://images.unsplash.com/photo-1583338918696-211122221210?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    calories: 150,
-    prepTime: 15,
-    category: "Pães e Massas",
+    name: "Sopa de Lentilha com Vegetais",
+    image: "/sopa-lentilha.jpg",
+    calories: 250,
+    prepTime: 40,
+    description: "Uma sopa reconfortante e nutritiva, perfeita para dias frios.",
+    ingredients: [
+      "1 xícara de lentilha",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "2 cenouras picadas",
+      "2 talos de aipo picados",
+      "1 litro de caldo de legumes",
+      "Azeite de oliva, sal e pimenta a gosto",
+    ],
+    instructions: [
+      "Refogue a cebola e o alho no azeite.",
+      "Adicione a lentilha, cenoura, aipo e caldo de legumes. Cozinhe até a lentilha ficar macia.",
+      "Tempere com sal e pimenta. Sirva quente.",
+    ],
   },
 ];
 
 const ExplorePage = () => {
   const [searchTerm, setSearchTerm] = React.useState("");
-  const [activeTab, setActiveTab] = React.useState("todas");
-  const navigate = useNavigate(); // Inicializar useNavigate
 
-  const categories = [
-    { value: "todas", label: "Todas" },
-    { value: "cafe-da-manha", label: "Café da Manhã" }, // Corrigido aqui
-    { value: "almoco-janta", label: "Almoço/Janta" },
-    { value: "snacks-lanches", label: "Snacks/Lanches" },
-    { value: "sopas-caldos", label: "Sopas e Caldos" },
-    { value: "marmitas-completas", label: "Marmitas Completas" },
-    { value: "paes-massas", label: "Pães e Massas" },
-    { value: "molhos", label: "Molhos" },
-    { value: "sobremesas", label: "Sobremesas" },
-    { value: "bebidas", label: "Bebidas" },
-  ];
-
-  const filteredRecipes = dummyRecipes.filter((recipe) => {
-    const matchesSearch = recipe.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory =
-      activeTab === "todas" ||
-      recipe.category.toLowerCase().replace(/ /g, "-").replace(/\//g, "-") === activeTab;
-    return matchesSearch && matchesCategory;
-  });
-
-  const handleRecipeClick = (id: string) => {
-    navigate(`/recipe/${id}`); // Navega para a página de detalhes da receita
-  };
+  const filteredRecipes = recipes.filter((recipe) =>
+    recipe.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
-    <div className="container mx-auto p-4 pb-20"> {/* Adicionado pb-20 para o footer */}
-      <div className="mb-6">
+    <div className="container mx-auto p-4 pb-20">
+      <h1 className="text-4xl font-bold text-center text-green-700 dark:text-green-300 mb-8">
+        Explore Receitas Saudáveis
+      </h1>
+
+      <div className="mb-8">
         <Input
           type="text"
-          placeholder="Pesquisar receitas..."
-          className="w-full p-3 rounded-lg border-2 border-green-300 dark:border-green-700 focus:ring-green-500 focus:border-green-500"
+          placeholder="Buscar receitas..."
+          className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
 
-      <Tabs value={activeTab} onValueChange={setActiveTab} className="mb-6">
-        <TabsList className="flex flex-wrap justify-center h-auto bg-green-50 dark:bg-green-900 p-1 rounded-lg">
-          {categories.map((category) => (
-            <TabsTrigger
-              key={category.value}
-              value={category.value}
-              className="px-3 py-1.5 text-sm data-[state=active]:bg-green-600 data-[state=active]:text-white data-[state=active]:shadow-sm rounded-md transition-colors duration-200 m-0.5"
-            >
-              {category.label}
-            </TabsTrigger>
-          ))}
-        </TabsList>
-        {categories.map((category) => (
-          <TabsContent key={category.value} value={category.value} className="mt-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {filteredRecipes.map((recipe) => (
-                <Card
-                  key={recipe.id}
-                  className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
-                  onClick={() => handleRecipeClick(recipe.id)} // Adiciona o evento de clique
-                >
-                  <img
-                    src={recipe.image}
-                    alt={recipe.name}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2">{recipe.name}</h3>
-                    <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400">
-                      <span>{recipe.calories} kcal</span>
-                      <span>{recipe.prepTime} min</span>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
-            {filteredRecipes.length === 0 && (
-              <p className="text-center text-gray-500 dark:text-gray-400 mt-8">Nenhuma receita encontrada para esta categoria ou pesquisa.</p>
-            )}
-          </TabsContent>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredRecipes.map((recipe) => (
+          <Card key={recipe.id} className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 dark:bg-gray-800">
+            <img
+              src={recipe.image}
+              alt={recipe.name}
+              className="w-full h-48 object-cover"
+            />
+            <CardContent className="p-4">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2">{recipe.name}</h3>
+              <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400">
+                <span className="flex items-center">
+                  <Flame size={16} className="text-orange-500 mr-1" /> {recipe.calories} kcal
+                </span>
+                <span className="flex items-center">
+                  <Clock size={16} className="text-orange-500 mr-1" /> {recipe.prepTime} min
+                </span>
+              </div>
+              <p className="text-gray-700 dark:text-gray-300 mt-3 text-sm">{recipe.description}</p>
+              <Link to={`/recipe/${recipe.id}`}>
+                <Button className="w-full mt-4 bg-green-600 hover:bg-green-700 text-white dark:bg-green-500 dark:hover:bg-green-600">
+                  Ver Receita
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
         ))}
-      </Tabs>
+      </div>
       <MadeWithDyad />
     </div>
   );
