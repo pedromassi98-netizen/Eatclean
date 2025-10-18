@@ -15,19 +15,19 @@ const RecipeCategoriesTabs: React.FC<RecipeCategoriesTabsProps> = ({
 }) => {
   const categories: (Recipe["category"] | "Todas")[] = [
     "Todas",
-    "Café da Manã",
+    "Café da Manhã", // Corrigido
     "Almoço/Jantar",
     "Lanches",
     "Sopas e Caldos",
     "Pães e Massas",
     "Bebidas",
-    "Sobremesas", // Adicionada
-    "Molhos", // Adicionada
+    "Sobremesas",
+    "Molhos",
   ];
 
   return (
     <Tabs value={activeCategory} onValueChange={(value) => onCategoryChange(value as Recipe["category"] | "Todas")} className="w-full mb-8">
-      <TabsList className="grid w-full grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-9 h-auto"> {/* Ajustado para mais colunas */}
+      <TabsList className="grid w-full grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-9 h-auto">
         {categories.map((category) => (
           <TabsTrigger
             key={category}

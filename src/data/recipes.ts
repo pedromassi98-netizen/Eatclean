@@ -14,7 +14,7 @@ export interface Recipe {
   instructions: string[];
   nutritionalInfo: NutritionalInfo;
   prepTime: number;
-  category: "Todas" | "Café da Manhã" | "Almoço/Jantar" | "Lanches" | "Sopas e Caldos" | "Sobremesas" | "Bebidas" | "Pães e Massas" | "Molhos"; // Categorias atualizadas
+  category: "Todas" | "Café da Manhã" | "Almoço/Jantar" | "Lanches" | "Sopas e Caldos" | "Sobremesas" | "Bebidas" | "Pães e Massas" | "Molhos"; // Categoria corrigida
 }
 
 export const allRecipes: Recipe[] = [
@@ -269,7 +269,7 @@ export const allRecipes: Recipe[] = [
       fat: "20g",
     },
     prepTime: 10,
-    category: "Sobremesas", // Nova receita de sobremesa
+    category: "Sobremesas",
   },
   {
     id: "10",
@@ -297,6 +297,6 @@ export const allRecipes: Recipe[] = [
       fat: "14g",
     },
     prepTime: 10,
-    category: "Molhos", // Nova receita de molho
+    category: "Molhos",
   },
 ];
