@@ -80,7 +80,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "3",
     name: "Frango Grelhado com Batata Doce",
-    image: "/frango grelhada-batata doce.png", // Caminho da imagem corrigido para o nome exato
+    image: "/frango grelhada-batata doce.png",
     description: "Uma refeição completa e balanceada, perfeita para o pós-treino ou para marmitas.",
     ingredients: [
       "1 filé de peito de frango (150g)",
@@ -107,7 +107,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "4",
     name: "Omelete de Legumes",
-    image: "/omelete-legumes.jpg",
+    image: "/omelete-legumes.png", // Caminho da imagem atualizado
     description: "Um café da manhã ou lanche rápido e rico em proteínas, com a adição de legumes frescos.",
     ingredients: [
       "2 ovos grandes",
