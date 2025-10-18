@@ -107,7 +107,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "4",
     name: "Panqueca Proteica de Banana",
-    image: "/panqueca-banana.jpg",
+    image: "/panqueca-banana.png",
     description: "Uma panqueca deliciosa e nutritiva, perfeita para um café da manhã energético.",
     ingredients: [
       "2 ovos inteiros",
