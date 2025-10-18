@@ -165,7 +165,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "6",
     "name": "Wrap de Frango com Cream Cheese",
-    "image": "/wrap-frango.jpg",
+    "image": "/wrap-frango.png",
     "description": "Um wrap prático e saboroso, perfeito para almoço ou jantar leve.",
     "ingredients": [
       "200g de peito de frango desfiado",
