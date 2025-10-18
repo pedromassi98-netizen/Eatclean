@@ -104,4 +104,31 @@ export const allRecipes: Recipe[] = [
     prepTime: 30,
     category: "Almoço/Jantar",
   },
+  {
+    id: "4",
+    name: "Panqueca Proteica de Banana",
+    image: "/panqueca-banana.jpg",
+    description: "Uma panqueca deliciosa e nutritiva, perfeita para um café da manhã energético.",
+    ingredients: [
+      "2 ovos inteiros",
+      "1 banana madura",
+      "3 colheres de aveia",
+      "1 scoop de whey (opcional)"
+    ],
+    instructions: [
+      "Amasse a banana em um bowl",
+      "Adicione os ovos e misture bem",
+      "Acrescente a aveia e o whey",
+      "Aqueça frigideira antiaderente",
+      "Despeje a massa e deixe dourar 2 min de cada lado"
+    ],
+    nutritionalInfo: {
+      calories: 285,
+      protein: "24g",
+      carbs: "35g",
+      fat: "6g"
+    },
+    prepTime: 10,
+    category: "Café da Manhã",
+  },
 ];
