@@ -134,7 +134,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "5",
     "name": "Omelete Turbinado de Claras",
-    "image": "/omelete-claras.jpg",
+    "image": "/omelete-claras.png",
     "description": "Uma omelete leve e proteica, ideal para um café da manhã ou lanche rápido.",
     "ingredients": [
       "4 claras de ovo",
