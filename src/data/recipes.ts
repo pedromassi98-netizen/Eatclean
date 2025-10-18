@@ -14,13 +14,14 @@ export interface Recipe {
   instructions: string[];
   nutritionalInfo: NutritionalInfo;
   prepTime: number;
+  category: "Todas" | "Café da Manhã" | "Almoço" | "Jantar" | "Lanches"; // Nova propriedade
 }
 
 export const allRecipes: Recipe[] = [
   {
     id: "1",
     name: "Salada de Quinoa com Vegetais",
-    image: "/salada-quinoa.png", // Caminho atualizado para o novo nome do arquivo .png
+    image: "/salada-quinoa.png",
     description: "Uma salada refrescante e nutritiva, perfeita para um almoço leve ou acompanhamento. Rica em proteínas e fibras.",
     ingredients: [
       "1 xícara de quinoa cozida",
@@ -45,6 +46,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 20,
+    category: "Almoço", // Categoria adicionada
   },
   {
     id: "2",
@@ -72,6 +74,7 @@ export const allRecipes: Recipe[] = [
       fat: "1g",
     },
     prepTime: 5,
+    category: "Café da Manhã", // Categoria adicionada
   },
   {
     id: "3",
@@ -98,6 +101,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 30,
+    category: "Almoço", // Categoria adicionada
   },
   {
     id: "4",
@@ -124,6 +128,7 @@ export const allRecipes: Recipe[] = [
       fat: "18g",
     },
     prepTime: 15,
+    category: "Café da Manhã", // Categoria adicionada
   },
   {
     id: "5",
@@ -153,6 +158,7 @@ export const allRecipes: Recipe[] = [
       fat: "8g",
     },
     prepTime: 30,
+    category: "Jantar", // Categoria adicionada
   },
   {
     id: "6",
@@ -181,6 +187,7 @@ export const allRecipes: Recipe[] = [
       fat: "5g",
     },
     prepTime: 25,
+    category: "Lanches", // Categoria adicionada
   },
   {
     id: "7",
@@ -206,6 +213,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 10,
+    category: "Lanches", // Categoria adicionada
   },
   {
     id: "8",
@@ -233,5 +241,6 @@ export const allRecipes: Recipe[] = [
       fat: "8g",
     },
     prepTime: 40,
+    category: "Jantar", // Categoria adicionada
   },
 ];

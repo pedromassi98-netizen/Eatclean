@@ -7,14 +7,18 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import { Flame, Clock } from "lucide-react";
-import { allRecipes } from "@/data/recipes"; // Importando a lista de receitas centralizada
+import { allRecipes, Recipe } from "@/data/recipes"; // Importando a lista de receitas centralizada e o tipo Recipe
+import RecipeCategoriesTabs from "@/components/RecipeCategoriesTabs"; // Importando o novo componente de abas
 
 const ExplorePage = () => {
   const [searchTerm, setSearchTerm] = React.useState("");
+  const [activeCategory, setActiveCategory] = React.useState<Recipe["category"] | "Todas">("Todas");
 
-  const filteredRecipes = allRecipes.filter((recipe) =>
-    recipe.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredRecipes = allRecipes.filter((recipe) => {
+    const matchesSearchTerm = recipe.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesCategory = activeCategory === "Todas" || recipe.category === activeCategory;
+    return matchesSearchTerm && matchesCategory;
+  });
 
   return (
     <div className="container mx-auto p-4 pb-20">
@@ -31,6 +35,8 @@ const ExplorePage = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
+
+      <RecipeCategoriesTabs activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredRecipes.map((recipe) => (
