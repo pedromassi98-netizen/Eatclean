@@ -46,7 +46,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 20,
-    category: "Almoço/Jantar", // Categoria atualizada
+    category: "Almoço/Jantar",
   },
   {
     id: "2",
@@ -74,7 +74,7 @@ export const allRecipes: Recipe[] = [
       fat: "1g",
     },
     prepTime: 5,
-    category: "Bebidas", // Categoria atualizada
+    category: "Bebidas",
   },
   {
     id: "3",
@@ -101,7 +101,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 30,
-    category: "Almoço/Jantar", // Categoria atualizada
+    category: "Almoço/Jantar",
   },
   {
     id: "4",
@@ -128,7 +128,7 @@ export const allRecipes: Recipe[] = [
       fat: "18g",
     },
     prepTime: 15,
-    category: "Café da Manhã", // Categoria mantida
+    category: "Café da Manhã",
   },
   {
     id: "5",
@@ -158,7 +158,7 @@ export const allRecipes: Recipe[] = [
       fat: "8g",
     },
     prepTime: 30,
-    category: "Sopas e Caldos", // Categoria atualizada
+    category: "Sopas e Caldos",
   },
   {
     id: "6",
@@ -187,7 +187,7 @@ export const allRecipes: Recipe[] = [
       fat: "5g",
     },
     prepTime: 25,
-    category: "Pães e Massas", // Categoria atualizada
+    category: "Pães e Massas",
   },
   {
     id: "7",
@@ -213,7 +213,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 10,
-    category: "Lanches", // Categoria mantida
+    category: "Lanches",
   },
   {
     id: "8",
@@ -241,6 +241,62 @@ export const allRecipes: Recipe[] = [
       fat: "8g",
     },
     prepTime: 40,
-    category: "Sopas e Caldos", // Categoria atualizada
+    category: "Sopas e Caldos",
+  },
+  {
+    id: "9",
+    name: "Mousse de Abacate com Cacau",
+    image: "https://images.unsplash.com/photo-1590005365085-f04329f6500d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Uma sobremesa saudável e deliciosa, rica em gorduras boas e antioxidantes.",
+    ingredients: [
+      "1 abacate maduro",
+      "2 colheres de sopa de cacau em pó 100%",
+      "2 colheres de sopa de mel ou adoçante natural",
+      "1/4 xícara de leite vegetal (amêndoa, coco)",
+      "Essência de baunilha a gosto",
+    ],
+    instructions: [
+      "Retire a polpa do abacate e coloque no liquidificador.",
+      "Adicione o cacau em pó, mel (ou adoçante), leite vegetal e essência de baunilha.",
+      "Bata até obter uma mistura homogênea e cremosa.",
+      "Leve à geladeira por pelo menos 30 minutos antes de servir.",
+      "Decore com raspas de chocolate amargo ou frutas vermelhas, se desejar.",
+    ],
+    nutritionalInfo: {
+      calories: 280,
+      protein: "5g",
+      carbs: "25g",
+      fat: "20g",
+    },
+    prepTime: 10,
+    category: "Sobremesas", // Nova receita de sobremesa
+  },
+  {
+    id: "10",
+    name: "Molho Pesto Caseiro",
+    image: "https://images.unsplash.com/photo-1621996384209-62191221f07f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Um molho fresco e aromático, perfeito para massas, saladas ou como acompanhamento.",
+    ingredients: [
+      "2 xícaras de folhas de manjericão fresco",
+      "1/2 xícara de queijo parmesão ralado",
+      "1/2 xícara de azeite de oliva extra virgem",
+      "1/3 xícara de pinhões (ou castanha de caju)",
+      "2 dentes de alho",
+      "Sal e pimenta do reino a gosto",
+    ],
+    instructions: [
+      "Em um processador de alimentos, adicione o manjericão, parmesão, pinhões e alho.",
+      "Pulse algumas vezes até que os ingredientes estejam bem picados.",
+      "Com o processador ligado, adicione o azeite de oliva em fio até obter uma consistência homogênea.",
+      "Tempere com sal e pimenta a gosto. Sirva imediatamente ou armazene em um pote hermético na geladeira.",
+    ],
+    nutritionalInfo: {
+      calories: 150,
+      protein: "5g",
+      carbs: "3g",
+      fat: "14g",
+    },
+    prepTime: 10,
+    category: "Molhos", // Nova receita de molho
   },
 ];
