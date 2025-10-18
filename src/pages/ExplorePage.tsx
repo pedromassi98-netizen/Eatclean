@@ -54,7 +54,7 @@ const recipes = [
   {
     id: "3",
     name: "Smoothie Verde Detox",
-    image: "/smoothie-verde.jpg",
+    image: "/Smoothie Verde Detox.png", // Caminho da imagem atualizado aqui
     calories: 200,
     prepTime: 5,
     description: "Um smoothie refrescante e cheio de nutrientes para começar o dia.",
