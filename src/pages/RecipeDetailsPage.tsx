@@ -4,7 +4,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Heart } from "lucide-react";
+import { Heart, ArrowLeft } from "lucide-react"; // Importando ArrowLeft para o ícone de voltar
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { toast } from "sonner";
@@ -35,6 +35,18 @@ const RecipeDetailsPage = () => {
   return (
     <ScrollArea className="h-screen pb-20">
       <div className="container mx-auto p-4">
+        <div className="flex items-center mb-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => navigate(-1)} // Navega para a página anterior
+            className="mr-2 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+          >
+            <ArrowLeft className="h-5 w-5" />
+          </Button>
+          <h1 className="text-2xl font-bold text-green-700 dark:text-green-300">Detalhes da Receita</h1>
+        </div>
+
         <Card className="overflow-hidden rounded-lg shadow-lg">
           <div className="relative">
             <img
