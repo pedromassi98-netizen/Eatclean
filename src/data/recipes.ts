@@ -14,7 +14,7 @@ export interface Recipe {
   instructions: string[];
   nutritionalInfo: NutritionalInfo;
   prepTime: number;
-  category: "Todas" | "Café da Manhã" | "Almoço" | "Jantar" | "Lanches"; // Nova propriedade
+  category: "Todas" | "Café da Manhã" | "Almoço/Jantar" | "Lanches" | "Sopas e Caldos" | "Sobremesas" | "Bebidas" | "Pães e Massas" | "Molhos"; // Categorias atualizadas
 }
 
 export const allRecipes: Recipe[] = [
@@ -46,7 +46,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 20,
-    category: "Almoço", // Categoria adicionada
+    category: "Almoço/Jantar", // Categoria atualizada
   },
   {
     id: "2",
@@ -74,7 +74,7 @@ export const allRecipes: Recipe[] = [
       fat: "1g",
     },
     prepTime: 5,
-    category: "Café da Manhã", // Categoria adicionada
+    category: "Bebidas", // Categoria atualizada
   },
   {
     id: "3",
@@ -101,7 +101,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 30,
-    category: "Almoço", // Categoria adicionada
+    category: "Almoço/Jantar", // Categoria atualizada
   },
   {
     id: "4",
@@ -128,7 +128,7 @@ export const allRecipes: Recipe[] = [
       fat: "18g",
     },
     prepTime: 15,
-    category: "Café da Manhã", // Categoria adicionada
+    category: "Café da Manhã", // Categoria mantida
   },
   {
     id: "5",
@@ -158,7 +158,7 @@ export const allRecipes: Recipe[] = [
       fat: "8g",
     },
     prepTime: 30,
-    category: "Jantar", // Categoria adicionada
+    category: "Sopas e Caldos", // Categoria atualizada
   },
   {
     id: "6",
@@ -187,7 +187,7 @@ export const allRecipes: Recipe[] = [
       fat: "5g",
     },
     prepTime: 25,
-    category: "Lanches", // Categoria adicionada
+    category: "Pães e Massas", // Categoria atualizada
   },
   {
     id: "7",
@@ -213,7 +213,7 @@ export const allRecipes: Recipe[] = [
       fat: "15g",
     },
     prepTime: 10,
-    category: "Lanches", // Categoria adicionada
+    category: "Lanches", // Categoria mantida
   },
   {
     id: "8",
@@ -241,6 +241,6 @@ export const allRecipes: Recipe[] = [
       fat: "8g",
     },
     prepTime: 40,
-    category: "Jantar", // Categoria adicionada
+    category: "Sopas e Caldos", // Categoria atualizada
   },
 ];
