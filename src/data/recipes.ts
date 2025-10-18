@@ -704,5 +704,517 @@ export const allRecipes: Recipe[] = [
     },
     "prepTime": 18,
     "category": "Lanches"
+  },
+  {
+    "id": "25",
+    "name": "Muffin Salgado de Frango e Brócolis",
+    "image": "/muffin-frango.jpg",
+    "description": "Muffins salgados proteicos, ideais para lanches ou marmitas.",
+    "ingredients": [
+      "200g de frango desfiado",
+      "1 xícara de brócolis picado",
+      "3 ovos",
+      "1/2 xícara de aveia",
+      "1/4 xícara de queijo cottage",
+      "1 colher de fermento",
+      "Sal, pimenta e orégano"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Cozinhe o brócolis no vapor por 5 minutos",
+      "Bata os ovos em um bowl",
+      "Adicione aveia, cottage, frango e brócolis",
+      "Tempere com sal, pimenta e orégano",
+      "Acrescente o fermento e misture delicadamente",
+      "Distribua em forminhas de muffin",
+      "Asse por 18-20 minutos até dourar"
+    ],
+    "nutritionalInfo": {
+      "calories": 145,
+      "protein": "16g",
+      "carbs": "12g",
+      "fat": "4g"
+    },
+    "prepTime": 25,
+    "category": "Lanches"
+  },
+  {
+    "id": "26",
+    "name": "Strogonoff Fit de Carne",
+    "image": "/strogonoff-fit.jpg",
+    "description": "Uma versão saudável e saborosa do clássico strogonoff.",
+    "ingredients": [
+      "500g de carne magra em tiras",
+      "1 cebola grande picada",
+      "200g de champignon fatiado",
+      "1 lata de tomate pelado",
+      "200ml de iogurte grego natural",
+      "1 colher de mostarda",
+      "Sal, pimenta e páprica",
+      "Salsinha picada"
+    ],
+    "instructions": [
+      "Tempere a carne com sal e pimenta",
+      "Em uma panela, doure a carne em fogo alto",
+      "Retire a carne e reserve",
+      "Na mesma panela, refogue a cebola",
+      "Adicione o champignon e cozinhe por 5min",
+      "Acrescente tomate pelado e mostarda",
+      "Retorne a carne, cozinhe por 10min em fogo baixo",
+      "Desligue o fogo e adicione o iogurte",
+      "Mexa bem e finalize com salsinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 295,
+      "protein": "34g",
+      "carbs": "18g",
+      "fat": "10g"
+    },
+    "prepTime": 30,
+    "category": "Almoço/Jantar"
+  },
+  {
+    "id": "27",
+    "name": "Panqueca de Banana Sem Farinha",
+    "image": "/panqueca-banana-sem-farinha.jpg",
+    "description": "Panqueca sem glúten e sem lactose, ideal para um café da manhã leve.",
+    "ingredients": [
+      "2 bananas maduras",
+      "4 ovos",
+      "1 colher de canela",
+      "1 colher de essência de baunilha",
+      "Pitada de sal",
+      "Mel para servir (opcional)"
+    ],
+    "instructions": [
+      "Amasse as bananas em um bowl",
+      "Adicione os ovos e bata com garfo",
+      "Acrescente canela, baunilha e sal",
+      "Misture até ficar homogêneo",
+      "Aqueça frigideira antiaderente em fogo médio",
+      "Despeje porções pequenas da massa",
+      "Cozinhe 2min de cada lado até dourar",
+      "Sirva com frutas frescas ou mel"
+    ],
+    "nutritionalInfo": {
+      "calories": 195,
+      "protein": "14g",
+      "carbs": "28g",
+      "fat": "4g"
+    },
+    "prepTime": 10,
+    "category": "Café da Manhã"
+  },
+  {
+    "id": "28",
+    "name": "Salada Caesar Fit com Frango",
+    "image": "/salad-caesar-fit.jpg",
+    "description": "Uma salada clássica em versão fit, com frango grelhado e molho leve.",
+    "ingredients": [
+      "2 peitos de frango grelhados",
+      "1 alface romana grande",
+      "3 colheres de iogurte grego",
+      "1 colher de mostarda dijon",
+      "Suco de 1 limão",
+      "1 dente de alho amassado",
+      "2 colheres de parmesão ralado",
+      "Croutons integrais (opcional)"
+    ],
+    "instructions": [
+      "Grelhe o frango temperado e corte em tiras",
+      "Lave e rasgue a alface em pedaços",
+      "Para o molho: misture iogurte, mostarda, limão e alho",
+      "Adicione metade do parmesão ao molho",
+      "Em uma tigela, coloque a alface",
+      "Adicione as tiras de frango",
+      "Regue com o molho caesar",
+      "Finalize com parmesão e croutons"
+    ],
+    "nutritionalInfo": {
+      "calories": 285,
+      "protein": "38g",
+      "carbs": "14g",
+      "fat": "9g"
+    },
+    "prepTime": 20,
+    "category": "Almoço/Jantar"
+  },
+  {
+    "id": "29",
+    "name": "Bolo de Cenoura Fit com Cobertura",
+    "image": "/bolo-cenoura-fit.jpg",
+    "description": "Bolo de cenoura saudável com cobertura de chocolate fit.",
+    "ingredients": [
+      "3 cenouras médias",
+      "3 ovos",
+      "1/2 xícara de óleo de coco",
+      "1 xícara de aveia em flocos",
+      "2 scoops de whey baunilha",
+      "1 colher de fermento",
+      "Adoçante, canela",
+      "Cobertura: 2 col cacau + 3 col leite + adoçante"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Bata no liquidificador: cenoura, ovos e óleo",
+      "Transfira para bowl e adicione aveia e whey",
+      "Acrescente canela, adoçante e por último o fermento",
+      "Despeje em forma untada",
+      "Asse por 30-35 minutos (teste palito)",
+      "Para cobertura: misture cacau, leite e adoçante",
+      "Leve ao fogo até engrossar",
+      "Cubra o bolo ainda morno"
+    ],
+    "nutritionalInfo": {
+      "calories": 155,
+      "protein": "8g",
+      "carbs": "22g",
+      "fat": "4g"
+    },
+    "prepTime": 40,
+    "category": "Sobremesas"
+  },
+  {
+    "id": "30",
+    "name": "Risoto de Couve-Flor com Cogumelos",
+    "image": "/risoto-couve-flor.jpg",
+    "description": "Um risoto low carb e vegetariano, com base de couve-flor.",
+    "ingredients": [
+      "1 couve-flor grande",
+      "200g de cogumelos variados",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1/2 xícara de vinho branco (opcional)",
+      "500ml de caldo de legumes",
+      "2 colheres de parmesão ralado",
+      "Azeite, tomilho e salsinha"
+    ],
+    "instructions": [
+      "Processe a couve-flor até ficar em grãos pequenos",
+      "Fatie os cogumelos",
+      "Aqueça azeite e doure alho e cebola",
+      "Adicione os cogumelos e refogue 5min",
+      "Acrescente a couve-flor e refogue 2min",
+      "Adicione vinho e deixe evaporar",
+      "Vá adicionando caldo aos poucos, mexendo sempre",
+      "Cozinhe por 12-15min até cremoso",
+      "Finalize com parmesão, tomilho e salsinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 165,
+      "protein": "9g",
+      "carbs": "18g",
+      "fat": "7g"
+    },
+    "prepTime": 25,
+    "category": "Almoço/Jantar"
+  },
+  {
+    "id": "31",
+    "name": "Chips de Batata Doce no Forno",
+    "image": "/chips-batata-doce.jpg",
+    "description": "Chips crocantes e saudáveis de batata doce, feitos no forno.",
+    "ingredients": [
+      "2 batatas doces médias",
+      "Azeite em spray",
+      "Sal rosa",
+      "Páprica defumada",
+      "Alho em pó",
+      "Pimenta do reino"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 200°C",
+      "Lave bem as batatas (pode deixar casca)",
+      "Corte em fatias bem finas com mandolina",
+      "Seque completamente com papel toalha",
+      "Disponha em assadeira forrada em camada única",
+      "Borrife azeite e tempere a gosto",
+      "Asse por 15min, vire e asse mais 10-15min",
+      "Fique de olho para não queimar",
+      "Deixe esfriar para ficarem crocantes"
+    ],
+    "nutritionalInfo": {
+      "calories": 125,
+      "protein": "2g",
+      "carbs": "26g",
+      "fat": "2g"
+    },
+    "prepTime": 30,
+    "category": "Lanches"
+  },
+  {
+    "id": "32",
+    "name": "Wrap de Alface com Carne Thai",
+    "image": "/wrap-alface-thai.jpg",
+    "description": "Wraps de alface com carne moída temperada ao estilo tailandês.",
+    "ingredients": [
+      "300g de carne moída magra",
+      "8 folhas de alface lisa",
+      "1 cenoura ralada",
+      "1/2 pepino em tiras",
+      "2 colheres de shoyu",
+      "1 colher de mel",
+      "Gengibre e alho picados",
+      "Hortelã e coentro frescos",
+      "Suco de 1 limão"
+    ],
+    "instructions": [
+      "Refogue alho e gengibre até perfumar",
+      "Adicione a carne e cozinhe até dourar",
+      "Tempere com shoyu, mel e limão",
+      "Cozinhe por mais 3min",
+      "Lave e seque bem as folhas de alface",
+      "Monte os wraps: alface + carne + cenoura + pepino",
+      "Finalize com hortelã e coentro",
+      "Sirva com molho de amendoim fit (opcional)"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "28g",
+      "carbs": "16g",
+      "fat": "8g"
+    },
+    "prepTime": 20,
+    "category": "Almoço/Jantar"
+  },
+  {
+    "id": "33",
+    "name": "Iogurte Bowl Proteico",
+    "image": "/iogurte-bowl.jpg",
+    "description": "Um bowl de iogurte com whey, granola e frutas, perfeito para o café da manhã.",
+    "ingredients": [
+      "200g de iogurte grego natural",
+      "1 scoop de whey sabor a escolha",
+      "3 colheres de granola fit",
+      "1/2 xícara de frutas vermelhas",
+      "1 colher de pasta de amendoim",
+      "1 colher de mel",
+      "Sementes de chia"
+    ],
+    "instructions": [
+      "Em um bowl, misture iogurte com whey",
+      "Mexa bem até incorporar",
+      "Adicione camada de granola",
+      "Distribua as frutas vermelhas",
+      "Regue com pasta de amendoim",
+      "Finalize com mel e chia",
+      "Sirva imediatamente"
+    ],
+    "nutritionalInfo": {
+      "calories": 295,
+      "protein": "32g",
+      "carbs": "34g",
+      "fat": "6g"
+    },
+    "prepTime": 5,
+    "category": "Café da Manhã"
+  },
+  {
+    "id": "34",
+    "name": "Espetinho de Frango Marinado",
+    "image": "/espetinho-frango.jpg",
+    "description": "Espetinhos de frango marinados e grelhados, uma opção leve e saborosa.",
+    "ingredients": [
+      "500g de peito de frango em cubos",
+      "Marinada: 3 col de iogurte natural",
+      "2 col de suco de limão",
+      "2 dentes de alho amassados",
+      "Páprica, cominho, cúrcuma",
+      "1 pimentão cortado em quadrados",
+      "1 cebola em pedaços",
+      "Palitos de espeto"
+    ],
+    "instructions": [
+      "Misture todos ingredientes da marinada",
+      "Adicione o frango e deixe na geladeira 2h mínimo",
+      "Monte os espetinhos alternando frango, pimentão e cebola",
+      "Pré-aqueça grill ou churrasqueira",
+      "Grelhe os espetinhos por 12-15min",
+      "Vire a cada 3-4min para dourar uniformemente",
+      "Sirva quente com molho tzatziki fit"
+    ],
+    "nutritionalInfo": {
+      "calories": 215,
+      "protein": "36g",
+      "carbs": "8g",
+      "fat": "5g"
+    },
+    "prepTime": 30,
+    "category": "Almoço/Jantar"
+  },
+  {
+    "id": "35",
+    "name": "Sopa Cremosa de Abóbora",
+    "image": "/sopa-abobora.jpg",
+    "description": "Sopa cremosa e reconfortante de abóbora com leite de coco.",
+    "ingredients": [
+      "500g de abóbora cabotiá",
+      "1 cebola média",
+      "2 dentes de alho",
+      "500ml de caldo de legumes",
+      "200ml de leite de coco light",
+      "Gengibre ralado",
+      "Noz moscada",
+      "Sal e pimenta",
+      "Sementes de abóbora torradas"
+    ],
+    "instructions": [
+      "Corte a abóbora em cubos",
+      "Refogue alho e cebola até dourar",
+      "Adicione a abóbora e refogue 3min",
+      "Acrescente o caldo e cozinhe 20min",
+      "Adicione gengibre e noz moscada",
+      "Bata tudo no liquidificador até cremoso",
+      "Retorne à panela e adicione leite de coco",
+      "Ajuste temperos",
+      "Sirva com sementes de abóbora por cima"
+    ],
+    "nutritionalInfo": {
+      "calories": 135,
+      "protein": "5g",
+      "carbs": "22g",
+      "fat": "3g"
+    },
+    "prepTime": 35,
+    "category": "Sopas e Caldos"
+  },
+  {
+    "id": "36",
+    "name": "Barrinhas de Cereal Caseiras",
+    "image": "/barrinhas-cereal.jpg",
+    "description": "Barrinhas de cereal caseiras, perfeitas para um lanche rápido e energético.",
+    "ingredients": [
+      "2 xícaras de aveia em flocos",
+      "1/2 xícara de pasta de amendoim",
+      "1/3 xícara de mel ou agave",
+      "1 scoop de whey",
+      "1/4 xícara de castanhas picadas",
+      "2 colheres de chia",
+      "Gotas de chocolate 70%",
+      "Essência de baunilha"
+    ],
+    "instructions": [
+      "Em uma panela, aqueça mel e pasta de amendoim",
+      "Mexa até derreter e formar creme",
+      "Retire do fogo e adicione baunilha",
+      "Em um bowl, misture aveia, whey, castanhas e chia",
+      "Despeje o creme líquido sobre os secos",
+      "Misture bem e adicione gotas de chocolate",
+      "Pressione em forma forrada (20x20cm)",
+      "Leve à geladeira por 2h",
+      "Corte em 10 barras",
+      "Guarde na geladeira por até 1 semana"
+    ],
+    "nutritionalInfo": {
+      "calories": 145,
+      "protein": "6g",
+      "carbs": "20g",
+      "fat": "5g"
+    },
+    "prepTime": 30,
+    "category": "Lanches"
+  },
+  {
+    "id": "37",
+    "name": "Pizza Fit de Frango",
+    "image": "/pizza-frango.jpg",
+    "description": "Pizza com massa de frango, uma opção low carb e rica em proteínas.",
+    "ingredients": [
+      "Massa: 500g frango moído",
+      "1 ovo",
+      "2 col de requeijão light",
+      "Orégano e sal",
+      "Cobertura: molho tomate caseiro",
+      "Muçarela light",
+      "Tomate fatiado",
+      "Manjericão fresco"
+    ],
+    "instructions": [
+      "Pré-aqueça forno a 200°C",
+      "Misture frango, ovo, requeijão e temperos",
+      "Espalhe a massa em forma redonda forrada",
+      "Leve ao forno por 20min para firmar",
+      "Retire e adicione molho de tomate",
+      "Distribua muçarela, tomate e orégano",
+      "Retorne ao forno por mais 10min",
+      "Finalize com manjericão fresco"
+    ],
+    "nutritionalInfo": {
+      "calories": 285,
+      "protein": "38g",
+      "carbs": "18g",
+      "fat": "8g"
+    },
+    "prepTime": 35,
+    "category": "Almoço/Jantar"
+  },
+  {
+    "id": "38",
+    "name": "Pão de Queijo Fit de Frigideira",
+    "image": "/pao-queijo-frigideira.jpg",
+    "description": "Pão de queijo rápido e sem glúten, feito na frigideira.",
+    "ingredients": [
+      "1 ovo",
+      "3 colheres de polvilho doce",
+      "2 colheres de queijo cottage",
+      "1 colher de queijo parmesão",
+      "Sal e orégano a gosto",
+      "Azeite em spray"
+    ],
+    "instructions": [
+      "Bata o ovo em um bowl",
+      "Adicione polvilho, cottage, parmesão e temperos",
+      "Misture até formar massa homogênea",
+      "Aqueça frigideira antiaderente",
+      "Despeje a massa formando círculo",
+      "Cozinhe 3-4min em fogo médio-baixo",
+      "Vire e cozinhe mais 3min",
+      "Sirva quente"
+    ],
+    "nutritionalInfo": {
+      "calories": 165,
+      "protein": "14g",
+      "carbs": "18g",
+      "fat": "5g"
+    },
+    "prepTime": 10,
+    "category": "Café da Manhã"
+  },
+  {
+    "id": "39",
+    "name": "Escondidinho Fit de Frango",
+    "image": "/escondidinho-fit.jpg",
+    "description": "Escondidinho de frango com purê de mandioquinha, uma refeição completa e saudável.",
+    "ingredients": [
+      "500g de frango desfiado",
+      "600g de mandioquinha",
+      "1 cebola picada",
+      "2 tomates picados",
+      "1 xícara de milho",
+      "200ml de leite desnatado",
+      "Queijo light ralado",
+      "Temperos: alho, cominho, páprica",
+      "Cebolinha"
+    ],
+    "instructions": [
+      "Cozinhe a mandioquinha até ficar macia",
+      "Amasse com leite até virar purê cremoso",
+      "Refogue cebola e alho",
+      "Adicione frango, tomate e temperos",
+      "Cozinhe por 10min, adicione milho",
+      "Em refratário, faça camada de frango",
+      "Cubra com o purê de mandioquinha",
+      "Polvilhe queijo por cima",
+      "Leve ao forno 200°C por 20min até gratinar",
+      "Finalize com cebolinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "28g",
+      "carbs": "24g",
+      "fat": "6g"
+    },
+    "prepTime": 45,
+    "category": "Almoço/Jantar"
   }
 ];
