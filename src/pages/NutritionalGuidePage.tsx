@@ -12,7 +12,7 @@ const NutritionalGuidePage = () => {
         <img
           src="/Imagem Guia Nutricional.png"
           alt="Guia Nutricional"
-          className="w-full h-64 object-cover"
+          className="w-full h-auto object-contain" // Alterado de h-64 object-cover para h-auto object-contain
         />
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-bold text-green-700 dark:text-green-300 mb-2">Guia Nutricional</CardTitle>
