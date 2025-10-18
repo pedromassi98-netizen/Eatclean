@@ -195,7 +195,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "7",
     "name": "Brownie de Caneca Proteico",
-    "image": "/brownie-caneca.jpg",
+    "image": "/brownie-caneca.png",
     "description": "Uma sobremesa rápida e proteica para matar a vontade de doce sem culpa.",
     "ingredients": [
       "1 scoop de whey chocolate",
