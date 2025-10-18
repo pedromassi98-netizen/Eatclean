@@ -1856,5 +1856,654 @@ export const allRecipes: Recipe[] = [
       "leite coco": "leite de amêndoas",
       "granola": "aveia em flocos"
     }
+  },
+  {
+    "id": "55",
+    "name": "Frittata de Vegetais ao Forno",
+    "image": "/frittata-vegetais.jpg",
+    "description": "Uma frittata leve e proteica, ideal para um café da manhã ou lanche saudável.",
+    "ingredients": [
+      "8 ovos",
+      "1 abobrinha fatiada",
+      "1 pimentão vermelho picado",
+      "1 xícara de espinafre",
+      "1/2 cebola roxa",
+      "100g de queijo feta light",
+      "Sal, pimenta e tomilho",
+      "Azeite em spray"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Refogue levemente abobrinha, pimentão e cebola",
+      "Adicione espinafre até murchar",
+      "Bata os ovos com sal, pimenta e tomilho",
+      "Em forma refratária untada, distribua os vegetais",
+      "Despeje os ovos batidos",
+      "Esfarele queijo feta por cima",
+      "Asse por 20-25min até firmar",
+      "Deixe esfriar 5min antes de cortar em fatias"
+    ],
+    "nutritionalInfo": {
+      "calories": 175,
+      "protein": "15g",
+      "carbs": "10g",
+      "fat": "9g"
+    },
+    "prepTime": 30,
+    "category": "Café da Manhã",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["vegetariano", "proteico", "assado"],
+    "substitutions": {
+      "abobrinha": "berinjela ou brócolis",
+      "queijo feta": "queijo cottage",
+      "espinafre": "couve ou rúcula"
+    }
+  },
+  {
+    "id": "56",
+    "name": "Wrap de Atum com Abacate",
+    "image": "/wrap-atum-abacate.jpg",
+    "description": "Um wrap prático e saboroso, perfeito para almoço ou jantar leve.",
+    "ingredients": [
+      "2 tortilhas integrais",
+      "2 latas de atum em água escorrido",
+      "1 abacate maduro",
+      "1 tomate picado",
+      "Folhas de alface",
+      "Suco de 1 limão",
+      "Sal e pimenta",
+      "Coentro ou salsa"
+    ],
+    "instructions": [
+      "Amasse o abacate com limão, sal e pimenta",
+      "Escorra bem o atum",
+      "Aqueça as tortilhas por 20 segundos",
+      "Espalhe o abacate nas tortilhas",
+      "Distribua o atum sobre o abacate",
+      "Adicione tomate e alface",
+      "Finalize com coentro ou salsa",
+      "Enrole bem apertado e corte ao meio"
+    ],
+    "nutritionalInfo": {
+      "calories": 295,
+      "protein": "28g",
+      "carbs": "26g",
+      "fat": "10g"
+    },
+    "prepTime": 10,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Muito Fácil",
+    "tags": ["proteico", "ômega 3", "rápido"],
+    "substitutions": {
+      "atum": "frango desfiado ou salmão",
+      "tortilha": "folha de alface (low carb)",
+      "abacate": "homus"
+    }
+  },
+  {
+    "id": "57",
+    "name": "Carne Louca Fit",
+    "image": "/carne-louca.jpg",
+    "description": "Uma versão saudável e saborosa da tradicional carne louca, ideal para refeições completas.",
+    "ingredients": [
+      "600g de coxão mole em tiras",
+      "2 cebolas grandes fatiadas",
+      "3 tomates picados",
+      "1 pimentão verde",
+      "1 pimentão vermelho",
+      "3 dentes de alho",
+      "Sal, pimenta e cominho",
+      "Cheiro verde",
+      "2 colheres de molho de tomate"
+    ],
+    "instructions": [
+      "Tempere a carne com sal, alho e pimenta",
+      "Em panela de pressão, refogue a carne até dourar",
+      "Adicione cebola e deixe caramelizar",
+      "Acrescente tomate, pimentões e molho",
+      "Tempere com cominho",
+      "Adicione 1 xícara de água",
+      "Tampe e cozinhe por 20min após pegar pressão",
+      "Deixe sair a pressão naturalmente",
+      "Desfie a carne com garfo",
+      "Finalize com cheiro verde"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "32g",
+      "carbs": "14g",
+      "fat": "8g"
+    },
+    "prepTime": 40,
+    "category": "Almoço/Jantar",
+    "portions": 6,
+    "difficulty": "Médio",
+    "tags": ["proteico", "marmita", "tradicional"],
+    "substitutions": {
+      "carne vermelha": "peito de frango",
+      "pimentões": "cenoura e vagem",
+      "panela pressão": "panela comum (cozinhar 1h)"
+    }
+  },
+  {
+    "id": "58",
+    "name": "Panqueca Americana Proteica",
+    "image": "/panqueca-americana.jpg",
+    "description": "Panquecas americanas saudáveis e ricas em proteínas, perfeitas para o café da manhã.",
+    "ingredients": [
+      "1 xícara de aveia em flocos finos",
+      "2 scoops de whey baunilha",
+      "2 ovos",
+      "1/2 xícara de leite desnatado",
+      "1 banana madura amassada",
+      "1 colher de fermento",
+      "Canela e essência de baunilha",
+      "Frutas para servir"
+    ],
+    "instructions": [
+      "Bata todos os ingredientes no liquidificador",
+      "Deixe a massa descansar 5 minutos",
+      "Aqueça frigideira antiaderente em fogo médio",
+      "Despeje porções pequenas da massa",
+      "Cozinhe até aparecerem bolhas na superfície",
+      "Vire e cozinhe mais 1-2min",
+      "Empilhe as panquecas",
+      "Sirva com frutas frescas e mel"
+    ],
+    "nutritionalInfo": {
+      "calories": 225,
+      "protein": "20g",
+      "carbs": "28g",
+      "fat": "5g"
+    },
+    "prepTime": 15,
+    "category": "Café da Manhã",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "café da manhã", "americano"],
+    "substitutions": {
+      "aveia": "farinha de amêndoas",
+      "whey": "albumina",
+      "banana": "purê de abóbora",
+      "leite": "leite vegetal"
+    }
+  },
+  {
+    "id": "59",
+    "name": "Berinjela à Parmegiana Light",
+    "image": "/berinjela-parmegiana.jpg",
+    "description": "Uma versão leve e saborosa da berinjela à parmegiana, sem fritura.",
+    "ingredients": [
+      "2 berinjelas grandes",
+      "2 xícaras de molho de tomate caseiro",
+      "200g de muçarela light",
+      "3 colheres de parmesão ralado",
+      "2 ovos batidos",
+      "Farinha de aveia para empanar",
+      "Manjericão fresco",
+      "Sal e orégano"
+    ],
+    "instructions": [
+      "Corte berinjelas em fatias de 1cm",
+      "Polvilhe sal e deixe suar por 20min",
+      "Enxugue bem com papel toalha",
+      "Passe no ovo e depois na farinha de aveia",
+      "Asse no forno 180°C por 15min virando no meio",
+      "Em refratário, faça camadas: molho + berinjela + queijo",
+      "Repita até acabar os ingredientes",
+      "Finalize com parmesão",
+      "Asse por 20min até gratinar",
+      "Decore com manjericão fresco"
+    ],
+    "nutritionalInfo": {
+      "calories": 215,
+      "protein": "14g",
+      "carbs": "22g",
+      "fat": "9g"
+    },
+    "prepTime": 45,
+    "category": "Almoço/Jantar",
+    "portions": 4,
+    "difficulty": "Médio",
+    "tags": ["vegetariano", "gratinado", "italiano"],
+    "substitutions": {
+      "berinjela": "abobrinha em fatias",
+      "muçarela": "queijo vegano",
+      "farinha aveia": "farinha de amêndoas"
+    }
+  },
+  {
+    "id": "60",
+    "name": "Gelatina Proteica de Frutas Vermelhas",
+    "image": "/gelatina-proteica.jpg",
+    "description": "Uma sobremesa leve e proteica, perfeita para refrescar e satisfazer a vontade de doce.",
+    "ingredients": [
+      "1 pacote de gelatina diet sabor frutas vermelhas",
+      "2 scoops de whey morango ou baunilha",
+      "500ml de água fervente",
+      "1 xícara de frutas vermelhas frescas",
+      "Hortelã para decorar"
+    ],
+    "instructions": [
+      "Dissolva a gelatina em 250ml de água fervente",
+      "Mexa bem até dissolver completamente",
+      "Adicione 250ml de água fria",
+      "Deixe esfriar até temperatura ambiente",
+      "Adicione o whey e bata com fouet",
+      "Distribua as frutas em tacinhas",
+      "Despeje a gelatina sobre as frutas",
+      "Leve à geladeira por no mínimo 4 horas",
+      "Decore com hortelã antes de servir"
+    ],
+    "nutritionalInfo": {
+      "calories": 85,
+      "protein": "15g",
+      "carbs": "8g",
+      "fat": "1g"
+    },
+    "prepTime": 10,
+    "category": "Sobremesas",
+    "portions": 4,
+    "difficulty": "Muito Fácil",
+    "tags": ["proteico", "low carb", "gelado", "leve"],
+    "substitutions": {
+      "gelatina diet": "gelatina sem sabor + suco natural",
+      "frutas vermelhas": "frutas tropicais",
+      "whey": "colágeno hidrolisado"
+    }
+  },
+  {
+    "id": "61",
+    "name": "Bolinho de Bacalhau Fit",
+    "image": "/bolinho-bacalhau.jpg",
+    "description": "Bolinhos de bacalhau assados, uma versão mais saudável do clássico petisco português.",
+    "ingredients": [
+      "300g de bacalhau dessalgado",
+      "2 batatas médias cozidas",
+      "2 ovos",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Salsinha e cebolinha",
+      "Farinha de aveia",
+      "Pimenta do reino"
+    ],
+    "instructions": [
+      "Cozinhe o bacalhau e desfie bem fino",
+      "Amasse as batatas ainda quentes",
+      "Misture bacalhau, batata, ovos e cebola",
+      "Adicione alho, salsinha e pimenta",
+      "Acrescente farinha de aveia até dar liga",
+      "Modele bolinhos ovais",
+      "Disponha em assadeira forrada",
+      "Borrife azeite por cima",
+      "Asse a 200°C por 20-25min até dourar",
+      "Vire na metade do tempo"
+    ],
+    "nutritionalInfo": {
+      "calories": 125,
+      "protein": "16g",
+      "carbs": "10g",
+      "fat": "3g"
+    },
+    "prepTime": 35,
+    "category": "Lanches/Snacks",
+    "portions": 8,
+    "difficulty": "Médio",
+    "tags": ["proteico", "português", "assado"],
+    "substitutions": {
+      "bacalhau": "atum ou salmão",
+      "batata": "mandioquinha ou inhame",
+      "fritar": "air fryer 180°C por 15min"
+    }
+  },
+  {
+    "id": "62",
+    "name": "Risoto de Camarão Light",
+    "image": "/risoto-camarao.jpg",
+    "description": "Um risoto cremoso e saboroso com camarões, em uma versão mais leve.",
+    "ingredients": [
+      "1 xícara de arroz arbóreo",
+      "300g de camarão limpo",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1/2 xícara de vinho branco",
+      "1 litro de caldo de legumes quente",
+      "2 colheres de parmesão ralado",
+      "Açafrão, sal e pimenta",
+      "Salsinha"
+    ],
+    "instructions": [
+      "Tempere os camarões e reserve",
+      "Refogue alho e cebola até transparente",
+      "Adicione o arroz e torre por 2min",
+      "Adicione vinho e deixe evaporar",
+      "Comece a adicionar caldo, uma concha por vez",
+      "Mexa constantemente esperando absorver antes de adicionar mais",
+      "Após 15min, adicione açafrão",
+      "Nos últimos 5min, adicione os camarões",
+      "Finalize com parmesão e salsinha",
+      "Desligue quando cremoso (al dente)"
+    ],
+    "nutritionalInfo": {
+      "calories": 325,
+      "protein": "28g",
+      "carbs": "42g",
+      "fat": "6g"
+    },
+    "prepTime": 35,
+    "category": "Almoço/Jantar",
+    "portions": 3,
+    "difficulty": "Médio",
+    "tags": ["proteico", "gourmet", "frutos do mar"],
+    "substitutions": {
+      "arroz arbóreo": "arroz integral (mais tempo)",
+      "camarão": "frango em cubos ou cogumelos",
+      "vinho branco": "caldo de legumes"
+    }
+  },
+  {
+    "id": "63",
+    "name": "Pudim de Tapioca com Coco",
+    "image": "/pudim-tapioca.jpg",
+    "description": "Um pudim cremoso e sem glúten, com sabor tropical de coco e tapioca.",
+    "ingredients": [
+      "1/2 xícara de tapioca em grãos",
+      "2 xícaras de leite de coco light",
+      "1 xícara de leite desnatado",
+      "3 colheres de adoçante culinário",
+      "1 colher de essência de baunilha",
+      "2 colheres de coco ralado",
+      "Pitada de sal",
+      "Canela para polvilhar"
+    ],
+    "instructions": [
+      "Deixe a tapioca de molho em água por 30min",
+      "Escorra bem a tapioca",
+      "Em panela, misture leites, adoçante e sal",
+      "Adicione a tapioca escorrida",
+      "Cozinhe em fogo médio mexendo sempre",
+      "Cozinhe por 10-12min até engrossar",
+      "Adicione baunilha e coco ralado",
+      "Distribua em tacinhas",
+      "Leve à geladeira por 2 horas",
+      "Sirva gelado polvilhado com canela"
+    ],
+    "nutritionalInfo": {
+      "calories": 165,
+      "protein": "6g",
+      "carbs": "28g",
+      "fat": "4g"
+    },
+    "prepTime": 15,
+    "category": "Sobremesas",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["sem glúten", "cremoso", "tropical"],
+    "substitutions": {
+      "leite coco": "leite de amêndoas",
+      "tapioca grãos": "chia (preparo diferente)",
+      "coco ralado": "raspas de limão"
+    }
+  },
+  {
+    "id": "64",
+    "name": "Fajitas de Frango Fit",
+    "image": "/fajitas-frango.jpg",
+    "description": "Fajitas de frango coloridas e saborosas, uma refeição rápida e saudável.",
+    "ingredients": [
+      "400g de peito de frango em tiras",
+      "1 pimentão vermelho",
+      "1 pimentão amarelo",
+      "1 cebola grande",
+      "2 dentes de alho",
+      "Temperos: cominho, páprica, pimenta",
+      "6 tortilhas integrais pequenas",
+      "Guacamole e iogurte grego para servir"
+    ],
+    "instructions": [
+      "Tempere o frango com cominho, páprica e sal",
+      "Corte pimentões e cebola em tiras",
+      "Aqueça frigideira em fogo alto",
+      "Sele o frango por 5-6min até dourar",
+      "Retire o frango e reserve",
+      "Na mesma frigideira, refogue pimentões e cebola",
+      "Retorne o frango e misture tudo",
+      "Aqueça as tortilhas rapidamente",
+      "Monte as fajitas com frango, vegetais e molhos"
+    ],
+    "nutritionalInfo": {
+      "calories": 295,
+      "protein": "36g",
+      "carbs": "24g",
+      "fat": "8g"
+    },
+    "prepTime": 25,
+    "category": "Almoço/Jantar",
+    "portions": 3,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "mexicano", "colorido"],
+    "substitutions": {
+      "frango": "carne magra ou camarão",
+      "tortilhas": "folhas de alface (low carb)",
+      "iogurte grego": "creme azedo light"
+    }
+  },
+  {
+    "id": "65",
+    "name": "Suco Verde Detox Energético",
+    "image": "/suco-verde-detox.jpg",
+    "description": "Um suco verde refrescante e cheio de nutrientes, ideal para desintoxicar e energizar.",
+    "ingredients": [
+      "2 folhas de couve",
+      "1 maçã verde",
+      "1/2 pepino",
+      "Suco de 1 limão",
+      "1 pedaço de gengibre",
+      "1 colher de chia",
+      "300ml de água de coco",
+      "Hortelã fresca"
+    ],
+    "instructions": [
+      "Lave bem todos os ingredientes",
+      "Corte a maçã em pedaços (pode deixar casca)",
+      "Corte o pepino em rodelas",
+      "Coloque tudo no liquidificador",
+      "Adicione água de coco e gelo",
+      "Bata por 1-2 minutos até ficar homogêneo",
+      "Coe se preferir (opcional)",
+      "Sirva imediatamente para preservar nutrientes"
+    ],
+    "nutritionalInfo": {
+      "calories": 95,
+      "protein": "3g",
+      "carbs": "20g",
+      "fat": "1g"
+    },
+    "prepTime": 5,
+    "category": "Bebidas",
+    "portions": 2,
+    "difficulty": "Muito Fácil",
+    "tags": ["detox", "vegano", "energético", "antioxidante"],
+    "substitutions": {
+      "couve": "espinafre ou acelga",
+      "maçã": "pera ou abacaxi",
+      "água coco": "água mineral + limão",
+      "gengibre": "cúrcuma fresca"
+    }
+  },
+  {
+    "id": "66",
+    "name": "Lasanha de Berinjela Low Carb",
+    "image": "/lasanha-berinjela.jpg",
+    "description": "Uma lasanha deliciosa e sem massa, perfeita para quem busca uma opção low carb.",
+    "ingredients": [
+      "3 berinjelas grandes",
+      "500g de carne moída magra",
+      "2 xícaras de molho de tomate caseiro",
+      "300g de ricota",
+      "150g de muçarela light",
+      "1 cebola e 3 dentes de alho",
+      "Manjericão, orégano",
+      "Parmesão ralado"
+    ],
+    "instructions": [
+      "Corte berinjelas em fatias finas no sentido do comprimento",
+      "Grelhe ou asse as fatias por 10min",
+      "Refogue carne com cebola, alho e temperos",
+      "Adicione molho de tomate e cozinhe 10min",
+      "Misture ricota com metade da muçarela",
+      "Em refratário, alterne camadas: berinjela + carne + ricota",
+      "Termine com camada de berinjela",
+      "Cubra com muçarela e parmesão",
+      "Asse a 180°C por 25-30min até gratinar"
+    ],
+    "nutritionalInfo": {
+      "calories": 235,
+      "protein": "22g",
+      "carbs": "16g",
+      "fat": "11g"
+    },
+    "prepTime": 50,
+    "category": "Almoço/Jantar",
+    "portions": 6,
+    "difficulty": "Médio",
+    "tags": ["low carb", "proteico", "gratinado"],
+    "substitutions": {
+      "berinjela": "abobrinha em fatias",
+      "carne moída": "frango moído ou lentilha",
+      "ricota": "cottage batido"
+    }
+  },
+  {
+    "id": "67",
+    "name": "Pão de Aveia Integral no Liquidificador",
+    "image": "/pao-aveia-liquidificador.jpg",
+    "description": "Um pão caseiro, integral e sem glúten, fácil de fazer no liquidificador.",
+    "ingredients": [
+      "2 xícaras de aveia em flocos",
+      "3 ovos",
+      "1/2 xícara de iogurte natural",
+      "1/4 xícara de azeite",
+      "1 colher de fermento em pó",
+      "1 colher de sal",
+      "Sementes de gergelim ou chia para polvilhar"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Bata no liquidificador aveia, ovos, iogurte e azeite",
+      "Bata até virar uma massa homogênea",
+      "Adicione sal e pulse rapidamente",
+      "Transfira para bowl e adicione fermento",
+      "Misture delicadamente com espátula",
+      "Despeje em forma de pão untada",
+      "Polvilhe sementes por cima",
+      "Asse por 35-40min até dourar",
+      "Deixe esfriar antes de fatiar"
+    ],
+    "nutritionalInfo": {
+      "calories": 145,
+      "protein": "6g",
+      "carbs": "24g",
+      "fat": "3g"
+    },
+    "prepTime": 40,
+    "category": "Café da Manhã",
+    "portions": 10,
+    "difficulty": "Fácil",
+    "tags": ["sem glúten", "integral", "caseiro"],
+    "substitutions": {
+      "iogurte": "leite fermentado ou kefir",
+      "azeite": "óleo de coco",
+      "aveia": "quinoa em flocos"
+    }
+  },
+  {
+    "id": "68",
+    "name": "Picadinho de Carne com Legumes",
+    "image": "/picadinho-carne.jpg",
+    "description": "Um picadinho de carne com legumes, uma refeição completa e nutritiva para o dia a dia.",
+    "ingredients": [
+      "500g de coxão mole em cubos",
+      "2 batatas em cubos",
+      "2 cenouras em cubos",
+      "1 xícara de vagem",
+      "1 cebola grande",
+      "3 dentes de alho",
+      "2 tomates picados",
+      "Sal, pimenta, cominho",
+      "Salsinha"
+    ],
+    "instructions": [
+      "Tempere a carne com sal, alho e pimenta",
+      "Em panela de pressão, doure a carne",
+      "Adicione cebola e refogue até murchar",
+      "Acrescente tomate e refogue 3min",
+      "Adicione batata, cenoura e 1 xícara de água",
+      "Tempere com cominho",
+      "Tampe e cozinhe por 15min após pegar pressão",
+      "Deixe sair a pressão, adicione vagem",
+      "Cozinhe mais 5min sem tampa",
+      "Finalize com salsinha picada"
+    ],
+    "nutritionalInfo": {
+      "calories": 275,
+      "protein": "32g",
+      "carbs": "18g",
+      "fat": "9g"
+    },
+    "prepTime": 35,
+    "category": "Almoço/Jantar",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "tradicional", "completo"],
+    "substitutions": {
+      "carne vermelha": "peito de frango em cubos",
+      "batata": "mandioca ou inhame",
+      "vagem": "brócolis ou couve-flor"
+    }
+  },
+  {
+    "id": "69",
+    "name": "Trufa Proteica de Chocolate",
+    "image": "/trufa-proteica.jpg",
+    "description": "Trufas de chocolate saudáveis e ricas em proteínas, perfeitas para um doce sem culpa.",
+    "ingredients": [
+      "1 lata de grão de bico escorrido",
+      "3 colheres de cacau 100%",
+      "2 scoops de whey chocolate",
+      "3 colheres de pasta de amendoim",
+      "2 colheres de mel",
+      "Essência de baunilha",
+      "Cacau em pó para cobrir"
+    ],
+    "instructions": [
+      "Lave bem o grão de bico e seque",
+      "Bata tudo no processador até virar pasta",
+      "Prove e ajuste doçura se necessário",
+      "Leve à geladeira por 30min para firmar",
+      "Modele bolinhas do tamanho de uma noz",
+      "Passe no cacau em pó",
+      "Leve à geladeira por mais 30min",
+      "Guarde em pote fechado na geladeira por até 1 semana"
+    ],
+    "nutritionalInfo": {
+      "calories": 85,
+      "protein": "6g",
+      "carbs": "10g",
+      "fat": "3g"
+    },
+    "prepTime": 20,
+    "category": "Sobremesas",
+    "portions": 12,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "sobremesa", "sem glúten"],
+    "substitutions": {
+      "grão de bico": "tâmaras hidratadas",
+      "pasta amendoim": "tahine ou pasta de castanha",
+      "mel": "xarope de bordo ou agave",
+      "cobertura": "coco ralado ou nibs de cacau"
+    }
   }
 ];
