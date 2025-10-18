@@ -225,7 +225,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "8",
     "name": "Salmão Grelhado com Aspargos",
-    "image": "/salmao-aspargos.jpg",
+    "image": "/salmao-aspargos.png",
     "description": "Um prato elegante e saudável, rico em ômega 3 e proteínas.",
     "ingredients": [
       "2 filés de salmão (300g total)",
@@ -257,7 +257,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "9",
     "name": "Tapioca Recheada Fit",
-    "image": "/tapioca-frango.jpg",
+    "image": "/tapioca-frango.png",
     "description": "Uma opção leve e sem glúten para café da manhã ou lanche.",
     "ingredients": [
       "3 colheres de goma de tapioca",
@@ -423,7 +423,7 @@ export const allRecipes: Recipe[] = [
       "Recheio: peito de peru e queijo branco"
     ],
     "instructions": [
-      "Bata o ovo com sal em um bowl",
+      "Bata o ovo em um bowl",
       "Adicione a tapioca e misture bem",
       "Aqueça frigideira antiaderente",
       "Despeje a mistura formando círculo",
