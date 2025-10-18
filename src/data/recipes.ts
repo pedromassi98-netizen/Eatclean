@@ -51,7 +51,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "2",
     name: "Smoothie Verde Detox",
-    image: "/Smoothie Verde Detox.png",
+    image: "/smoothie-verde-detox.png",
     description: "Um smoothie energizante e desintoxicante, ideal para começar o dia ou como um lanche rápido.",
     ingredients: [
       "1 xícara de espinafre fresco",
@@ -80,7 +80,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "3",
     name: "Frango Grelhado com Batata Doce",
-    image: "/frango grelhada-batata doce.png",
+    image: "/frango-grelhado-batata-doce.png",
     description: "Uma refeição completa e balanceada, perfeita para o pós-treino ou para marmitas.",
     ingredients: [
       "1 filé de peito de frango (150g)",
