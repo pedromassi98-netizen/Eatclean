@@ -20,15 +20,14 @@ const MealPrepPage = () => {
         </p>
       </Card>
 
-      {/* Novas imagens adicionadas aqui */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
         <img
-          src="/meal-prep.png" {/* Caminho corrigido */}
+          src="/meal-prep.png"
           alt="Meal Prep Organization"
           className="w-full sm:w-1/2 max-w-xs h-auto rounded-lg shadow-md object-cover"
         />
         <img
-          src="/meal-prep2.png" {/* Caminho corrigido */}
+          src="/meal-prep2.png"
           alt="Meal Prep Containers"
           className="w-full sm:w-1/2 max-w-xs h-auto rounded-lg shadow-md object-cover"
         />
