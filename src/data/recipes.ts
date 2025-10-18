@@ -107,7 +107,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "4",
     name: "Omelete de Legumes",
-    image: "/omelete-legumes.png", // Caminho da imagem atualizado
+    image: "/omelete-legumes.png", // Caminho da imagem corrigido para .png
     description: "Um café da manhã ou lanche rápido e rico em proteínas, com a adição de legumes frescos.",
     ingredients: [
       "2 ovos grandes",
