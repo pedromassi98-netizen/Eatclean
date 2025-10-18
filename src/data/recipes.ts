@@ -1746,7 +1746,7 @@ export const allRecipes: Recipe[] = [
     "instructions": [
       "Cozinhe as batatas no vapor até ficarem macias",
       "Em frigideira antiaderente, refogue a cebola",
-      "Bata os ovos com sal e pimenta",
+      "Bata os ovos com sal, pimenta e",
       "Adicione batatas e cebola aos ovos",
       "Misture delicadamente",
       "Aqueça frigideira média com azeite",
@@ -2504,6 +2504,653 @@ export const allRecipes: Recipe[] = [
       "pasta amendoim": "tahine ou pasta de castanha",
       "mel": "xarope de bordo ou agave",
       "cobertura": "coco ralado ou nibs de cacau"
+    }
+  },
+  {
+    "id": "70",
+    "name": "Shakshuka Fit (Ovos ao Molho de Tomate)",
+    "image": "/shakshuka.jpg",
+    "description": "Uma shakshuka leve e proteica, ideal para um café da manhã ou brunch saudável.",
+    "ingredients": [
+      "4 ovos",
+      "400g de tomate pelado",
+      "1 pimentão vermelho picado",
+      "1 cebola média",
+      "3 dentes de alho",
+      "1 colher de páprica defumada",
+      "Cominho em pó",
+      "Sal, pimenta e coentro fresco",
+      "Azeite"
+    ],
+    "instructions": [
+      "Em frigideira funda, refogue cebola e alho no azeite",
+      "Adicione pimentão e refogue por 5min",
+      "Acrescente tomate pelado e amasse com colher",
+      "Tempere com páprica, cominho, sal e pimenta",
+      "Cozinhe em fogo médio por 10min até engrossar",
+      "Faça 4 buraquinhos no molho",
+      "Quebre os ovos cuidadosamente nos buraquinhos",
+      "Tampe e cozinhe por 5-7min até clara firmar",
+      "Gema deve ficar mole",
+      "Finalize com coentro fresco picado"
+    ],
+    "nutritionalInfo": {
+      "calories": 215,
+      "protein": "16g",
+      "carbs": "18g",
+      "fat": "10g"
+    },
+    "prepTime": 25,
+    "category": "Café da Manhã",
+    "portions": 2,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "mediterrâneo", "árabe"],
+    "substitutions": {
+      "tomate pelado": "tomates frescos picados",
+      "pimentão": "berinjela em cubos",
+      "coentro": "salsinha"
+    }
+  },
+  {
+    "id": "71",
+    "name": "Bolinho de Chuva Fit",
+    "image": "/bolinho-chuva-fit.jpg",
+    "description": "Bolinhos de chuva saudáveis, feitos com aveia e banana, perfeitos para um lanche sem culpa.",
+    "ingredients": [
+      "1 xícara de aveia em flocos finos",
+      "2 ovos",
+      "1 banana madura amassada",
+      "1/4 xícara de leite desnatado",
+      "1 colher de fermento",
+      "Canela em pó",
+      "Essência de baunilha",
+      "Canela com eritritol para polvilhar"
+    ],
+    "instructions": [
+      "Bata a banana com os ovos",
+      "Adicione leite e essência de baunilha",
+      "Misture aveia e canela",
+      "Acrescente fermento por último",
+      "Deixe a massa descansar 5min",
+      "Aqueça frigideira antiaderente",
+      "Com colher, faça bolinhas pequenas",
+      "Frite em fogo médio até dourar dos dois lados",
+      "Escorra em papel toalha",
+      "Polvilhe canela com eritritol ainda quente"
+    ],
+    "nutritionalInfo": {
+      "calories": 95,
+      "protein": "5g",
+      "carbs": "16g",
+      "fat": "2g"
+    },
+    "prepTime": 20,
+    "category": "Lanches/Snacks",
+    "portions": 10,
+    "difficulty": "Fácil",
+    "tags": ["sem glúten", "tradicional", "lanche"],
+    "substitutions": {
+      "aveia": "farinha de arroz",
+      "banana": "purê de maçã",
+      "fritar": "assar 180°C por 15min"
+    }
+  },
+  {
+    "id": "72",
+    "name": "Filé de Frango ao Molho de Mostarda e Mel",
+    "image": "/frango-mostarda-mel.jpg",
+    "description": "Filés de frango suculentos com um molho agridoce de mostarda e mel, uma refeição saborosa e rápida.",
+    "ingredients": [
+      "3 filés de frango (450g)",
+      "3 colheres de mostarda dijon",
+      "2 colheres de mel",
+      "Suco de 1 limão",
+      "2 dentes de alho picados",
+      "1/2 xícara de caldo de legumes",
+      "Tomilho fresco",
+      "Sal e pimenta",
+      "Azeite"
+    ],
+    "instructions": [
+      "Tempere os filés com sal, pimenta e limão",
+      "Sele o frango em frigideira quente (3min cada lado)",
+      "Retire o frango e reserve",
+      "Na mesma frigideira, refogue o alho",
+      "Adicione mostarda, mel e caldo",
+      "Mexa até formar molho cremoso",
+      "Retorne o frango ao molho",
+      "Cozinhe em fogo baixo por 5-7min",
+      "Adicione tomilho fresco",
+      "Sirva com o molho por cima"
+    ],
+    "nutritionalInfo": {
+      "calories": 265,
+      "protein": "38g",
+      "carbs": "12g",
+      "fat": "8g"
+    },
+    "prepTime": 25,
+    "category": "Almoço/Jantar",
+    "portions": 3,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "gourmet", "fácil"],
+    "substitutions": {
+      "frango": "salmão ou carne de porco magra",
+      "mostarda dijon": "mostarda amarela",
+      "mel": "agave ou melado"
+    }
+  },
+  {
+    "id": "73",
+    "name": "Vitamina de Aveia com Frutas",
+    "image": "/vitamina-aveia.jpg",
+    "description": "Uma vitamina cremosa e nutritiva, perfeita para um café da manhã ou lanche energético.",
+    "ingredients": [
+      "3 colheres de aveia em flocos",
+      "1 banana",
+      "1/2 xícara de morango",
+      "200ml de leite desnatado",
+      "1 colher de pasta de amendoim",
+      "1 colher de mel",
+      "Canela em pó",
+      "Gelo a gosto"
+    ],
+    "instructions": [
+      "Coloque todos os ingredientes no liquidificador",
+      "Bata por 2 minutos até ficar cremoso",
+      "Adicione mais leite se preferir mais líquido",
+      "Ajuste doçura com mais mel se necessário",
+      "Sirva imediatamente",
+      "Polvilhe canela por cima"
+    ],
+    "nutritionalInfo": {
+      "calories": 275,
+      "protein": "14g",
+      "carbs": "46g",
+      "fat": "5g"
+    },
+    "prepTime": 5,
+    "category": "Bebidas",
+    "portions": 1,
+    "difficulty": "Muito Fácil",
+    "tags": ["energético", "pré-treino", "cremoso"],
+    "substitutions": {
+      "aveia": "granola",
+      "morango": "frutas vermelhas mix",
+      "leite": "leite vegetal",
+      "pasta amendoim": "tahine"
+    }
+  },
+  {
+    "id": "74",
+    "name": "Moqueca de Peixe Light",
+    "image": "/moqueca-peixe.jpg",
+    "description": "Uma moqueca de peixe leve e saborosa, com leite de coco e temperos frescos, sem azeite de dendê.",
+    "ingredients": [
+      "600g de filé de peixe branco",
+      "2 tomates grandes",
+      "1 pimentão vermelho",
+      "1 pimentão amarelo",
+      "1 cebola grande",
+      "200ml de leite de coco light",
+      "Suco de 2 limões",
+      "Coentro, cebolinha",
+      "Dendê (opcional, 1 colher)",
+      "Sal, pimenta e páprica"
+    ],
+    "instructions": [
+      "Corte o peixe em postas e tempere com limão e sal",
+      "Deixe marinar por 15min",
+      "Fatie tomate, pimentões e cebola",
+      "Em panela, faça camadas: cebola, peixe, tomate, pimentão",
+      "Repita as camadas",
+      "Regue com leite de coco",
+      "Adicione dendê se usar",
+      "Tampe e cozinhe em fogo baixo por 20min",
+      "Não mexa, balance a panela",
+      "Finalize com coentro e cebolinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "32g",
+      "carbs": "16g",
+      "fat": "8g"
+    },
+    "prepTime": 35,
+    "category": "Almoço/Jantar",
+    "portions": 4,
+    "difficulty": "Médio",
+    "tags": ["proteico", "brasileiro", "nordeste"],
+    "substitutions": {
+      "peixe branco": "camarão ou lula",
+      "leite de coco": "creme de leite light",
+      "dendê": "azeite de oliva"
+    }
+  },
+  {
+    "id": "75",
+    "name": "Paleta Mexicana de Frutas (Picolé)",
+    "image": "/paleta-mexicana.jpg",
+    "description": "Picolés caseiros de frutas frescas e iogurte, uma sobremesa refrescante e saudável para o verão.",
+    "ingredients": [
+      "2 xícaras de morangos",
+      "1 xícara de manga picada",
+      "1 xícara de iogurte natural",
+      "2 colheres de mel",
+      "Suco de 1 limão",
+      "Folhas de hortelã"
+    ],
+    "instructions": [
+      "Bata morangos, iogurte, mel e limão",
+      "Pique manga em cubinhos pequenos",
+      "Distribua manga nas forminhas de picolé",
+      "Adicione folhas de hortelã",
+      "Despeje a mistura batida",
+      "Insira palito de picolé",
+      "Congele por no mínimo 4 horas",
+      "Para desenformar, passe água morna na forma"
+    ],
+    "nutritionalInfo": {
+      "calories": 65,
+      "protein": "2g",
+      "carbs": "14g",
+      "fat": "1g"
+    },
+    "prepTime": 10,
+    "category": "Sobremesas",
+    "portions": 6,
+    "difficulty": "Muito Fácil",
+    "tags": ["gelado", "frutas", "refrescante", "kids"],
+    "substitutions": {
+      "morango": "frutas vermelhas mix",
+      "manga": "abacaxi ou kiwi",
+      "iogurte": "leite de coco"
+    }
+  },
+  {
+    "id": "76",
+    "name": "Patê de Atum Fit",
+    "image": "/pate-atum.jpg",
+    "description": "Um patê de atum leve e cremoso, perfeito para lanches rápidos e saudáveis, rico em proteínas.",
+    "ingredients": [
+      "2 latas de atum em água",
+      "1/2 xícara de iogurte grego",
+      "1 colher de mostarda",
+      "1 cebola pequena picada",
+      "Suco de 1/2 limão",
+      "Sal, pimenta",
+      "Cebolinha picada",
+      "Azeitonas picadas (opcional)"
+    ],
+    "instructions": [
+      "Escorra muito bem o atum",
+      "Em um bowl, desfie o atum com garfo",
+      "Adicione iogurte e mostarda",
+      "Acrescente cebola picada finamente",
+      "Tempere com limão, sal e pimenta",
+      "Misture bem até ficar cremoso",
+      "Adicione cebolinha e azeitonas",
+      "Leve à geladeira por 30min",
+      "Sirva com torradas integrais ou palitos de cenoura"
+    ],
+    "nutritionalInfo": {
+      "calories": 115,
+      "protein": "18g",
+      "carbs": "4g",
+      "fat": "3g"
+    },
+    "prepTime": 10,
+    "category": "Lanches/Snacks",
+    "portions": 4,
+    "difficulty": "Muito Fácil",
+    "tags": ["proteico", "low carb", "rápido"],
+    "substitutions": {
+      "atum": "frango desfiado ou sardinha",
+      "iogurte grego": "cream cheese light",
+      "cebola": "alho-poró picado"
+    }
+  },
+  {
+    "id": "77",
+    "name": "Arroz Integral com Lentilha",
+    "image": "/arroz-lentilha.jpg",
+    "description": "Um acompanhamento nutritivo e saboroso, combinando arroz integral e lentilha, rico em fibras e proteínas vegetais.",
+    "ingredients": [
+      "1 xícara de arroz integral",
+      "1/2 xícara de lentilha",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 cenoura ralada",
+      "Cominho e cúrcuma",
+      "Sal e pimenta",
+      "Salsinha",
+      "2 colheres de azeite"
+    ],
+    "instructions": [
+      "Cozinhe a lentilha em água por 15min",
+      "Escorra e reserve",
+      "Refogue alho e cebola no azeite",
+      "Adicione o arroz e torre por 2min",
+      "Acrescente cenoura ralada",
+      "Adicione 2 xícaras de água quente",
+      "Tempere com cominho, cúrcuma, sal e pimenta",
+      "Cozinhe tampado em fogo baixo por 25min",
+      "Nos últimos 5min, misture a lentilha cozida",
+      "Finalize com salsinha picada"
+    ],
+    "nutritionalInfo": {
+      "calories": 185,
+      "protein": "8g",
+      "carbs": "34g",
+      "fat": "3g"
+    },
+    "prepTime": 35,
+    "category": "Acompanhamentos",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["vegetariano", "proteico", "completo"],
+    "substitutions": {
+      "lentilha": "grão de bico",
+      "arroz integral": "quinoa",
+      "cenoura": "abobrinha ralada"
+    }
+  },
+  {
+    "id": "78",
+    "name": "Medalhão de Frango Recheado",
+    "image": "/medalhao-frango.jpg",
+    "description": "Medalhões de frango recheados com queijo e espinafre, envoltos em peito de peru, uma opção elegante e saudável.",
+    "ingredients": [
+      "3 filés de frango grandes",
+      "100g de queijo branco light",
+      "100g de espinafre refogado",
+      "3 fatias de peito de peru",
+      "Sal, pimenta e alho",
+      "Palitos para segurar",
+      "Azeite em spray",
+      "Tomate seco picado (opcional)"
+    ],
+    "instructions": [
+      "Abra os filés como um livro (tipo borboleta)",
+      "Tempere com sal, pimenta e alho",
+      "Recheie com peito de peru, queijo e espinafre",
+      "Adicione tomate seco se usar",
+      "Enrole e prenda com palitos",
+      "Sele todos os lados em frigideira quente",
+      "Transfira para assadeira",
+      "Asse a 180°C por 20min",
+      "Deixe descansar 5min antes de fatiar",
+      "Retire palitos e sirva em medalhões"
+    ],
+    "nutritionalInfo": {
+      "calories": 285,
+      "protein": "42g",
+      "carbs": "6g",
+      "fat": "10g"
+    },
+    "prepTime": 35,
+    "category": "Almoço/Jantar",
+    "portions": 3,
+    "difficulty": "Médio",
+    "tags": ["proteico", "gourmet", "especial"],
+    "substitutions": {
+      "espinafre": "rúcula ou agrião",
+      "queijo branco": "ricota temperada",
+      "peito peru": "presunto magro"
+    }
+  },
+  {
+    "id": "79",
+    "name": "Creme de Abacate com Cacau",
+    "image": "/creme-abacate-cacau.jpg",
+    "description": "Um creme de abacate com cacau, vegano e sem açúcar, uma sobremesa cremosa e nutritiva.",
+    "ingredients": [
+      "1 abacate maduro",
+      "3 colheres de cacau em pó 100%",
+      "3 colheres de mel ou agave",
+      "1/2 xícara de leite de amêndoas",
+      "Essência de baunilha",
+      "Pitada de sal",
+      "Frutas vermelhas para decorar"
+    ],
+    "instructions": [
+      "Retire polpa do abacate",
+      "Bata tudo no liquidificador até cremoso",
+      "Prove e ajuste doçura",
+      "Se muito grosso, adicione mais leite",
+      "Distribua em taças",
+      "Leve à geladeira por 1h",
+      "Decore com frutas vermelhas",
+      "Sirva gelado"
+    ],
+    "nutritionalInfo": {
+      "calories": 195,
+      "protein": "4g",
+      "carbs": "22g",
+      "fat": "11g"
+    },
+    "prepTime": 5,
+    "category": "Sobremesas",
+    "portions": 2,
+    "difficulty": "Muito Fácil",
+    "tags": ["vegano", "sem glúten", "cremoso"],
+    "substitutions": {
+      "abacate": "banana congelada",
+      "cacau": "alfarroba em pó",
+      "leite amêndoas": "leite de coco"
+    }
+  },
+  {
+    "id": "80",
+    "name": "Quibe de Forno Fit",
+    "image": "/quibe-forno.jpg",
+    "description": "Um quibe de forno saudável e saboroso, com carne moída magra e trigo para quibe, perfeito para uma refeição completa.",
+    "ingredients": [
+      "500g de carne moída magra",
+      "1 xícara de trigo para quibe",
+      "1 cebola grande ralada",
+      "Hortelã e salsinha picadas",
+      "Sal, pimenta e canela",
+      "Recheio: 200g carne refogada",
+      "1 cebola, tomate e pinhão (opcional)",
+      "Azeite em spray"
+    ],
+    "instructions": [
+      "Hidrate o trigo em água por 20min",
+      "Escorra e esprema bem",
+      "Misture trigo, carne crua, cebola e temperos",
+      "Amasse bem até dar liga",
+      "Prepare recheio: refogue carne com cebola e tomate",
+      "Em refratário, espalhe metade da massa",
+      "Distribua o recheio",
+      "Cubra com a outra metade da massa",
+      "Faça desenhos com faca",
+      "Borrife azeite e asse 180°C por 35-40min"
+    ],
+    "nutritionalInfo": {
+      "calories": 235,
+      "protein": "22g",
+      "carbs": "24g",
+      "fat": "7g"
+    },
+    "prepTime": 50,
+    "category": "Almoço/Jantar",
+    "portions": 8,
+    "difficulty": "Médio",
+    "tags": ["árabe", "proteico", "festa"],
+    "substitutions": {
+      "trigo quibe": "quinoa cozida",
+      "carne": "grão de bico (versão vegana)",
+      "pinhão": "amêndoas picadas"
+    }
+  },
+  {
+    "id": "81",
+    "name": "Panqueca de Espinafre Proteica",
+    "image": "/panqueca-espinafre.jpg",
+    "description": "Panquecas verdes e proteicas, feitas com espinafre e aveia, ideais para um café da manhã ou lanche nutritivo.",
+    "ingredients": [
+      "1 xícara de espinafre",
+      "3 ovos",
+      "1/2 xícara de aveia",
+      "1/4 xícara de queijo cottage",
+      "Sal, pimenta e noz moscada",
+      "Recheio: ricota temperada",
+      "Tomate e manjericão"
+    ],
+    "instructions": [
+      "Bata espinafre, ovos, aveia e cottage",
+      "Tempere com sal, pimenta e noz moscada",
+      "Aqueça frigideira antiaderente",
+      "Despeje porções da massa",
+      "Cozinhe 2min de cada lado",
+      "Recheie com ricota temperada",
+      "Adicione tomate e manjericão",
+      "Enrole e sirva"
+    ],
+    "nutritionalInfo": {
+      "calories": 195,
+      "protein": "18g",
+      "carbs": "20g",
+      "fat": "6g"
+    },
+    "prepTime": 15,
+    "category": "Café da Manhã",
+    "portions": 3,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "vegetariano", "verde"],
+    "substitutions": {
+      "espinafre": "couve ou rúcula",
+      "aveia": "farinha de grão de bico",
+      "ricota": "cream cheese light"
+    }
+  },
+  {
+    "id": "82",
+    "name": "Canja de Frango Light",
+    "image": "/canja-frango.jpg",
+    "description": "Uma canja de frango leve e reconfortante, perfeita para dias frios ou para uma refeição nutritiva e de fácil digestão.",
+    "ingredients": [
+      "400g de peito de frango",
+      "1/2 xícara de arroz integral",
+      "2 cenouras picadas",
+      "2 batatas pequenas",
+      "1 cebola",
+      "2 dentes de alho",
+      "1,5 litro de água",
+      "Sal, pimenta",
+      "Salsinha e cebolinha"
+    ],
+    "instructions": [
+      "Cozinhe o frango inteiro em água com sal",
+      "Retire o frango e desfie",
+      "No mesmo caldo, refogue alho e cebola",
+      "Adicione cenoura e batata",
+      "Acrescente o arroz",
+      "Cozinhe por 25min até arroz amolecer",
+      "Retorne o frango desfiado",
+      "Ajuste temperos",
+      "Finalize com cheiro verde picado",
+      "Sirva bem quente"
+    ],
+    "nutritionalInfo": {
+      "calories": 185,
+      "protein": "22g",
+      "carbs": "20g",
+      "fat": "3g"
+    },
+    "prepTime": 40,
+    "category": "Sopas e Caldos",
+    "portions": 5,
+    "difficulty": "Fácil",
+    "tags": ["conforto", "proteico", "tradicional"],
+    "substitutions": {
+      "arroz integral": "macarrão integral ou quinoa",
+      "batata": "mandioquinha",
+      "frango": "coxinhas de frango"
+    }
+  },
+  {
+    "id": "83",
+    "name": "Cookies Salgados de Queijo",
+    "image": "/cookies-queijo.jpg",
+    "description": "Cookies salgados e crocantes de queijo, feitos com aveia e farinha de arroz, ideais para um lanche saudável.",
+    "ingredients": [
+      "1 xícara de aveia em flocos",
+      "1/2 xícara de farinha de arroz",
+      "100g de queijo parmesão ralado",
+      "1 ovo",
+      "2 colheres de azeite",
+      "Sal, orégano e alho em pó",
+      "1/2 colher de fermento"
+    ],
+    "instructions": [
+      "Pré-aqueça o forno a 180°C",
+      "Misture aveia, farinha, queijo e temperos",
+      "Adicione ovo e azeite",
+      "Amasse até formar massa homogênea",
+      "Acrescente fermento por último",
+      "Faça bolinhas e achate",
+      "Disponha em assadeira forrada",
+      "Asse por 15-18min até dourar",
+      "Deixe esfriar para ficarem crocantes"
+    ],
+    "nutritionalInfo": {
+      "calories": 85,
+      "protein": "5g",
+      "carbs": "10g",
+      "fat": "3g"
+    },
+    "prepTime": 25,
+    "category": "Lanches/Snacks",
+    "portions": 12,
+    "difficulty": "Fácil",
+    "tags": ["salgado", "crocante", "lanche"],
+    "substitutions": {
+      "farinha arroz": "farinha de amêndoas",
+      "parmesão": "queijo prato ralado",
+      "aveia": "quinoa em flocos"
+    }
+  },
+  {
+    "id": "84",
+    "name": "Salada Caprese com Peito de Peru",
+    "image": "/salada-caprese-peru.jpg",
+    "description": "Uma salada caprese fresca e leve, com peito de peru, muçarela de búfala e manjericão, perfeita para uma refeição rápida.",
+    "ingredients": [
+      "200g de peito de peru fatiado",
+      "2 tomates grandes",
+      "150g de muçarela de búfala light",
+      "Folhas de manjericão fresco",
+      "2 colheres de azeite extra virgem",
+      "Vinagre balsâmico",
+      "Sal rosa e pimenta",
+      "Orégano"
+    ],
+    "instructions": [
+      "Fatie tomates e muçarela em rodelas",
+      "Intercale em prato: tomate, queijo, peru",
+      "Distribua folhas de manjericão",
+      "Regue com azeite",
+      "Adicione gotas de vinagre balsâmico",
+      "Tempere com sal, pimenta e orégano",
+      "Sirva imediatamente"
+    ],
+    "nutritionalInfo": {
+      "calories": 225,
+      "protein": "24g",
+      "carbs": "8g",
+      "fat": "11g"
+    },
+    "prepTime": 10,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Muito Fácil",
+    "tags": ["low carb", "rápido", "italiano"],
+    "substitutions": {
+      "peito peru": "frango grelhado fatiado",
+      "muçarela búfala": "queijo branco",
+      "vinagre balsâmico": "limão siciliano"
     }
   }
 ];
