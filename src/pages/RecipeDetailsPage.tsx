@@ -4,16 +4,16 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Heart, ArrowLeft } from "lucide-react"; // Importando ArrowLeft para o ícone de voltar
+import { Heart, ArrowLeft } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { toast } from "sonner";
-import { allRecipes } from "@/data/recipes"; // Importando a lista de receitas centralizada
+import { allRecipes } from "@/data/recipes";
 
 const RecipeDetailsPage = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const recipe = allRecipes.find((r) => r.id === id); // Usando a lista centralizada
+  const recipe = allRecipes.find((r) => r.id === id);
 
   if (!recipe) {
     return (
@@ -35,18 +35,6 @@ const RecipeDetailsPage = () => {
   return (
     <ScrollArea className="h-screen pb-20">
       <div className="container mx-auto p-4">
-        <div className="flex items-center mb-4">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => navigate(-1)} // Navega para a página anterior
-            className="mr-2 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-          >
-            <ArrowLeft className="h-5 w-5" />
-          </Button>
-          <h1 className="text-2xl font-bold text-green-700 dark:text-green-300">Detalhes da Receita</h1>
-        </div>
-
         <Card className="overflow-hidden rounded-lg shadow-lg">
           <div className="relative">
             <img
@@ -54,10 +42,20 @@ const RecipeDetailsPage = () => {
               alt={recipe.name}
               className="w-full h-64 object-cover"
             />
+            {/* Botão de Voltar */}
             <Button
               variant="ghost"
               size="icon"
-              className="absolute top-4 right-4 bg-white/70 hover:bg-white text-red-500 hover:text-red-600 rounded-full p-2"
+              onClick={() => navigate(-1)}
+              className="absolute top-4 left-4 bg-white/70 hover:bg-white text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full p-2 z-10"
+            >
+              <ArrowLeft className="h-6 w-6" />
+            </Button>
+            {/* Botão de Favoritar */}
+            <Button
+              variant="ghost"
+              size="icon"
+              className="absolute top-4 right-4 bg-white/70 hover:bg-white text-red-500 hover:text-red-600 rounded-full p-2 z-10"
               onClick={handleFavorite}
             >
               <Heart className="h-6 w-6 fill-current" />
