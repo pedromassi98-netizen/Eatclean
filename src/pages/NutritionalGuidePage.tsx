@@ -8,15 +8,19 @@ import { MadeWithDyad } from "@/components/made-with-dyad"; // Importar MadeWith
 const NutritionalGuidePage = () => {
   return (
     <div className="container mx-auto p-4 pb-20"> {/* Adicionado pb-20 para o footer */}
-      <Card className="overflow-hidden rounded-lg shadow-lg mb-6">
-        <img
-          src="/Imagem Guia Nutricional.png"
-          alt="Guia Nutricional"
-          className="max-w-xs h-auto object-contain mx-auto" // Alterado para max-w-xs e mx-auto
-        />
-        <CardHeader className="text-center">
-          <CardTitle className="text-3xl font-bold text-green-700 dark:text-green-300 mb-2">Guia Nutricional</CardTitle>
-          <p className="text-gray-600 dark:text-gray-400">Sua bússola para uma alimentação saudável e equilibrada.</p>
+      <Card
+        className="relative overflow-hidden rounded-lg shadow-lg mb-3 h-64 flex flex-col justify-center items-center" // mb-3 para metade do espaço, h-64 para altura, flex para centralizar
+        style={{
+          backgroundImage: `url('/Imagem Guia Nutricional.png')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Overlay semi-transparente para melhorar a legibilidade do texto */}
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <CardHeader className="relative z-10 text-center text-white p-6"> {/* Texto branco e z-index para ficar acima do overlay */}
+          <CardTitle className="text-3xl font-bold mb-2">Guia Nutricional</CardTitle>
+          <p className="text-lg">Sua bússola para uma alimentação saudável e equilibrada.</p>
         </CardHeader>
       </Card>
 
