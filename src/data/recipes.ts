@@ -60,6 +60,7 @@ export const allRecipes: Recipe[] = [
       "1/2 xícara de água de coco",
       "1 colher de chá de gengibre ralado",
       "Suco de 1/2 limão",
+      "1 colher de chá de sementes de chia (opcional)",
     ],
     instructions: [
       "Lave bem o espinafre e a maçã.",
@@ -79,7 +80,7 @@ export const allRecipes: Recipe[] = [
   {
     id: "3",
     name: "Frango Grelhado com Batata Doce",
-    image: "/frango-grelhado-batata-doce.png", // Caminho da imagem corrigido
+    image: "/frango grelhada-batata doce.png", // Caminho da imagem corrigido para o nome exato
     description: "Uma refeição completa e balanceada, perfeita para o pós-treino ou para marmitas.",
     ingredients: [
       "1 filé de peito de frango (150g)",
@@ -124,7 +125,7 @@ export const allRecipes: Recipe[] = [
     nutritionalInfo: {
       calories: 280,
       protein: "15g",
-  carbs: "10g",
+      carbs: "10g",
       fat: "18g",
     },
     prepTime: 15,
