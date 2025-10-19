@@ -291,7 +291,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "10",
     "name": "Batata Doce Recheada Fitness",
-    "image": "/batata-doce-recheada.jpg",
+    "image": "/batata-doce-recheada-updated.jpg",
     "description": "Uma refeição completa e nutritiva, perfeita para marmitas.",
     "ingredients": [
       "2 batatas doces médias",
@@ -323,7 +323,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "11",
     "name": "Vitamina Pós-Treino Explosiva",
-    "image": "/vitamina-pos-treino.jpg",
+    "image": "/vitamina-pos-treino-updated.jpg",
     "description": "Uma vitamina potente para recuperação muscular e energia pós-treino.",
     "ingredients": [
       "1 banana congelada",
@@ -352,7 +352,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "12",
     "name": "Hambúrguer de Frango Caseiro",
-    "image": "/hamburguer-frango.jpg",
+    "image": "/hamburguer-frango-updated.jpg",
     "description": "Hambúrguer de frango caseiro, uma alternativa mais saudável e saborosa.",
     "ingredients": [
       "500g de peito de frango moído",
@@ -417,7 +417,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "14",
     "name": "Crepioca Proteica",
-    "image": "/crepioca.jpg",
+    "image": "/crepioca-updated.jpg",
     "description": "Uma crepioca versátil e rica em proteínas, ideal para qualquer refeição.",
     "ingredients": [
       "1 ovo",
@@ -678,7 +678,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "22",
     "name": "Cookies Proteicos de Pasta de Amendoim",
-    "image": "/cookies-amendoim.jpg",
+    "image": "/cookies-amendoim-updated.jpg",
     "description": "Cookies deliciosos e proteicos, perfeitos para um lanche saudável.",
     "ingredients": [
       "1/2 xícara de pasta de amendoim",
