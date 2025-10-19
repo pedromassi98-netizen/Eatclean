@@ -352,7 +352,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "12",
     "name": "Hambúrguer de Frango Caseiro",
-    "image": "/hamburguer-frango-updated.jpg",
+    "image": "/hamburguer-frango.png",
     "description": "Hambúrguer de frango caseiro, uma alternativa mais saudável e saborosa.",
     "ingredients": [
       "500g de peito de frango moído",
@@ -678,7 +678,7 @@ export const allRecipes: Recipe[] = [
   {
     "id": "22",
     "name": "Cookies Proteicos de Pasta de Amendoim",
-    "image": "/cookies-amendoim-updated.jpg",
+    "image": "/cookies-amendoim.png",
     "description": "Cookies deliciosos e proteicos, perfeitos para um lanche saudável.",
     "ingredients": [
       "1/2 xícara de pasta de amendoim",
@@ -1836,7 +1836,9 @@ export const allRecipes: Recipe[] = [
       "Despeje em um bowl",
       "Decore com granola em uma metade",
       "Frutas fatiadas na outra metade",
-      "Finalize com pasta de amendoim e coco",
+      "Adicione coco ralado",
+      "Polvilhe chia",
+      "Regue com fio de mel",
       "Sirva imediatamente"
     ],
     "nutritionalInfo": {
