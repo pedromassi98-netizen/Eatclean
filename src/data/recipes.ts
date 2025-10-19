@@ -1251,7 +1251,7 @@ export const allRecipes: Recipe[] = [
       "calories": 235,
       "protein": "8g",
       "carbs": "42g",
-      "fat": "4g"
+      "fat": "4g",
     },
     "prepTime": 40,
     "category": "Almoço/Jantar",
@@ -1292,7 +1292,7 @@ export const allRecipes: Recipe[] = [
       "calories": 295,
       "protein": "26g",
       "carbs": "38g",
-      "fat": "6g"
+      "fat": "6g",
     },
     "prepTime": 8,
     "category": "Café da Manhã",
@@ -1336,7 +1336,7 @@ export const allRecipes: Recipe[] = [
       "calories": 255,
       "protein": "32g",
       "carbs": "14g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 35,
     "category": "Almoço/Jantar",
@@ -1375,7 +1375,7 @@ export const allRecipes: Recipe[] = [
       "calories": 125,
       "protein": "4g",
       "carbs": "28g",
-      "fat": "1g"
+      "fat": "1g",
     },
     "prepTime": 5,
     "category": "Sobremesas",
@@ -1419,7 +1419,7 @@ export const allRecipes: Recipe[] = [
       "calories": 185,
       "protein": "16g",
       "carbs": "8g",
-      "fat": "10g"
+      "fat": "10g",
     },
     "prepTime": 40,
     "category": "Almoço/Jantar",
@@ -1462,7 +1462,7 @@ export const allRecipes: Recipe[] = [
       "calories": 165,
       "protein": "12g",
       "carbs": "22g",
-      "fat": "4g"
+      "fat": "4g",
     },
     "prepTime": 30,
     "category": "Sopas e Caldos",
@@ -1503,7 +1503,7 @@ export const allRecipes: Recipe[] = [
       "calories": 325,
       "protein": "34g",
       "carbs": "32g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 15,
     "category": "Almoço/Jantar",
@@ -1546,7 +1546,7 @@ export const allRecipes: Recipe[] = [
       "calories": 95,
       "protein": "5g",
       "carbs": "12g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 15,
     "category": "Acompanhamentos",
@@ -1589,7 +1589,7 @@ export const allRecipes: Recipe[] = [
       "calories": 275,
       "protein": "38g",
       "carbs": "16g",
-      "fat": "7g"
+      "fat": "7g",
     },
     "prepTime": 25,
     "category": "Almoço/Jantar",
@@ -1630,7 +1630,7 @@ export const allRecipes: Recipe[] = [
       "calories": 175,
       "protein": "12g",
       "carbs": "26g",
-      "fat": "4g"
+      "fat": "4g",
     },
     "prepTime": 5,
     "category": "Sobremesas",
@@ -1674,7 +1674,7 @@ export const allRecipes: Recipe[] = [
       "calories": 245,
       "protein": "12g",
       "carbs": "32g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 15,
     "category": "Almoço/Jantar",
@@ -1717,7 +1717,7 @@ export const allRecipes: Recipe[] = [
       "calories": 185,
       "protein": "32g",
       "carbs": "4g",
-      "fat": "5g"
+      "fat": "5g",
     },
     "prepTime": 15,
     "category": "Almoço/Jantar",
@@ -1759,7 +1759,7 @@ export const allRecipes: Recipe[] = [
       "calories": 205,
       "protein": "14g",
       "carbs": "18g",
-      "fat": "9g"
+      "fat": "9g",
     },
     "prepTime": 30,
     "category": "Almoço/Jantar",
@@ -1801,7 +1801,7 @@ export const allRecipes: Recipe[] = [
       "calories": 95,
       "protein": "3g",
       "carbs": "18g",
-      "fat": "2g"
+      "fat": "2g",
     },
     "prepTime": 25,
     "category": "Lanches/Snacks",
@@ -1843,7 +1843,7 @@ export const allRecipes: Recipe[] = [
       "calories": 345,
       "protein": "22g",
       "carbs": "48g",
-      "fat": "10g"
+      "fat": "10g",
     },
     "prepTime": 10,
     "category": "Café da Manhã",
@@ -1887,7 +1887,7 @@ export const allRecipes: Recipe[] = [
       "calories": 175,
       "protein": "15g",
       "carbs": "10g",
-      "fat": "9g"
+      "fat": "9g",
     },
     "prepTime": 30,
     "category": "Café da Manhã",
@@ -1929,7 +1929,7 @@ export const allRecipes: Recipe[] = [
       "calories": 295,
       "protein": "28g",
       "carbs": "26g",
-      "fat": "10g"
+      "fat": "10g",
     },
     "prepTime": 10,
     "category": "Almoço/Jantar",
@@ -1974,7 +1974,7 @@ export const allRecipes: Recipe[] = [
       "calories": 245,
       "protein": "32g",
       "carbs": "14g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 40,
     "category": "Almoço/Jantar",
@@ -2016,7 +2016,7 @@ export const allRecipes: Recipe[] = [
       "calories": 225,
       "protein": "20g",
       "carbs": "28g",
-      "fat": "5g"
+      "fat": "5g",
     },
     "prepTime": 15,
     "category": "Café da Manhã",
@@ -2061,7 +2061,7 @@ export const allRecipes: Recipe[] = [
       "calories": 215,
       "protein": "14g",
       "carbs": "22g",
-      "fat": "9g"
+      "fat": "9g",
     },
     "prepTime": 45,
     "category": "Almoço/Jantar",
@@ -2101,7 +2101,7 @@ export const allRecipes: Recipe[] = [
       "calories": 85,
       "protein": "15g",
       "carbs": "8g",
-      "fat": "1g"
+      "fat": "1g",
     },
     "prepTime": 10,
     "category": "Sobremesas",
@@ -2145,7 +2145,7 @@ export const allRecipes: Recipe[] = [
       "calories": 125,
       "protein": "16g",
       "carbs": "10g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 35,
     "category": "Lanches/Snacks",
@@ -2190,7 +2190,7 @@ export const allRecipes: Recipe[] = [
       "calories": 325,
       "protein": "28g",
       "carbs": "42g",
-      "fat": "6g"
+      "fat": "6g",
     },
     "prepTime": 35,
     "category": "Almoço/Jantar",
@@ -2220,7 +2220,7 @@ export const allRecipes: Recipe[] = [
     ],
     "instructions": [
       "Deixe a tapioca de molho em água por 30min",
-      "Escorra bem a tapioca",
+      "Escorra e reserve",
       "Em panela, misture leites, adoçante e sal",
       "Adicione a tapioca escorrida",
       "Cozinhe em fogo médio mexendo sempre",
@@ -2234,7 +2234,7 @@ export const allRecipes: Recipe[] = [
       "calories": 165,
       "protein": "6g",
       "carbs": "28g",
-      "fat": "4g"
+      "fat": "4g",
     },
     "prepTime": 15,
     "category": "Sobremesas",
@@ -2277,7 +2277,7 @@ export const allRecipes: Recipe[] = [
       "calories": 295,
       "protein": "36g",
       "carbs": "24g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 25,
     "category": "Almoço/Jantar",
@@ -2319,7 +2319,7 @@ export const allRecipes: Recipe[] = [
       "calories": 95,
       "protein": "3g",
       "carbs": "20g",
-      "fat": "1g"
+      "fat": "1g",
     },
     "prepTime": 5,
     "category": "Bebidas",
@@ -2363,7 +2363,7 @@ export const allRecipes: Recipe[] = [
       "calories": 235,
       "protein": "22g",
       "carbs": "16g",
-      "fat": "11g"
+      "fat": "11g",
     },
     "prepTime": 50,
     "category": "Almoço/Jantar",
@@ -2406,7 +2406,7 @@ export const allRecipes: Recipe[] = [
       "calories": 145,
       "protein": "6g",
       "carbs": "24g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 40,
     "category": "Café da Manhã",
@@ -2451,7 +2451,7 @@ export const allRecipes: Recipe[] = [
       "calories": 275,
       "protein": "32g",
       "carbs": "18g",
-      "fat": "9g"
+      "fat": "9g",
     },
     "prepTime": 35,
     "category": "Almoço/Jantar",
@@ -2492,7 +2492,7 @@ export const allRecipes: Recipe[] = [
       "calories": 85,
       "protein": "6g",
       "carbs": "10g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 20,
     "category": "Sobremesas",
@@ -2538,7 +2538,7 @@ export const allRecipes: Recipe[] = [
       "calories": 215,
       "protein": "16g",
       "carbs": "18g",
-      "fat": "10g"
+      "fat": "10g",
     },
     "prepTime": 25,
     "category": "Café da Manhã",
@@ -2582,7 +2582,7 @@ export const allRecipes: Recipe[] = [
       "calories": 95,
       "protein": "5g",
       "carbs": "16g",
-      "fat": "2g"
+      "fat": "2g",
     },
     "prepTime": 20,
     "category": "Lanches/Snacks",
@@ -2627,7 +2627,7 @@ export const allRecipes: Recipe[] = [
       "calories": 265,
       "protein": "38g",
       "carbs": "12g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 25,
     "category": "Almoço/Jantar",
@@ -2667,7 +2667,7 @@ export const allRecipes: Recipe[] = [
       "calories": 275,
       "protein": "14g",
       "carbs": "46g",
-      "fat": "5g"
+      "fat": "5g",
     },
     "prepTime": 5,
     "category": "Bebidas",
@@ -2714,7 +2714,7 @@ export const allRecipes: Recipe[] = [
       "calories": 245,
       "protein": "32g",
       "carbs": "16g",
-      "fat": "8g"
+      "fat": "8g",
     },
     "prepTime": 35,
     "category": "Almoço/Jantar",
@@ -2754,7 +2754,7 @@ export const allRecipes: Recipe[] = [
       "calories": 65,
       "protein": "2g",
       "carbs": "14g",
-      "fat": "1g"
+      "fat": "1g",
     },
     "prepTime": 10,
     "category": "Sobremesas",
@@ -2797,7 +2797,7 @@ export const allRecipes: Recipe[] = [
       "calories": 115,
       "protein": "18g",
       "carbs": "4g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 10,
     "category": "Lanches/Snacks",
@@ -2842,7 +2842,7 @@ export const allRecipes: Recipe[] = [
       "calories": 185,
       "protein": "8g",
       "carbs": "34g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 35,
     "category": "Acompanhamentos",
@@ -2886,7 +2886,7 @@ export const allRecipes: Recipe[] = [
       "calories": 285,
       "protein": "42g",
       "carbs": "6g",
-      "fat": "10g"
+      "fat": "10g",
     },
     "prepTime": 35,
     "category": "Almoço/Jantar",
@@ -2927,7 +2927,7 @@ export const allRecipes: Recipe[] = [
       "calories": 195,
       "protein": "4g",
       "carbs": "22g",
-      "fat": "11g"
+      "fat": "11g",
     },
     "prepTime": 5,
     "category": "Sobremesas",
@@ -2971,7 +2971,7 @@ export const allRecipes: Recipe[] = [
       "calories": 235,
       "protein": "22g",
       "carbs": "24g",
-      "fat": "7g"
+      "fat": "7g",
     },
     "prepTime": 50,
     "category": "Almoço/Jantar",
@@ -3012,7 +3012,7 @@ export const allRecipes: Recipe[] = [
       "calories": 195,
       "protein": "18g",
       "carbs": "20g",
-      "fat": "6g"
+      "fat": "6g",
     },
     "prepTime": 15,
     "category": "Café da Manhã",
@@ -3057,7 +3057,7 @@ export const allRecipes: Recipe[] = [
       "calories": 185,
       "protein": "22g",
       "carbs": "20g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 40,
     "category": "Sopas e Caldos",
@@ -3099,7 +3099,7 @@ export const allRecipes: Recipe[] = [
       "calories": 85,
       "protein": "5g",
       "carbs": "10g",
-      "fat": "3g"
+      "fat": "3g",
     },
     "prepTime": 25,
     "category": "Lanches/Snacks",
@@ -3140,7 +3140,7 @@ export const allRecipes: Recipe[] = [
       "calories": 225,
       "protein": "24g",
       "carbs": "8g",
-      "fat": "11g"
+      "fat": "11g",
     },
     "prepTime": 10,
     "category": "Almoço/Jantar",
@@ -3151,6 +3151,712 @@ export const allRecipes: Recipe[] = [
       "peito peru": "frango grelhado fatiado",
       "muçarela búfala": "queijo branco",
       "vinagre balsâmico": "limão siciliano"
+    }
+  },
+  {
+    "id": "85",
+    "name": "Buddha Bowl Completo",
+    "image": "/buddha-bowl.jpg",
+    "description": "Um bowl nutritivo e colorido com quinoa, grão de bico, vegetais frescos e molho tahine, perfeito para um almoço ou jantar leve e saudável.",
+    "ingredients": [
+      "1 xícara de quinoa cozida",
+      "200g de grão de bico assado",
+      "1 xícara de couve roxa ralada",
+      "1 cenoura ralada",
+      "1/2 abacate fatiado",
+      "1 beterraba assada",
+      "2 colheres de homus",
+      "Sementes de gergelim",
+      "Molho tahine: 2 col tahine + limão + alho"
+    ],
+    "instructions": [
+      "Cozinhe a quinoa conforme embalagem",
+      "Tempere grão de bico e asse 180°C por 20min",
+      "Rale couve roxa e massageie com limão",
+      "Rale cenoura em tiras finas",
+      "Corte beterraba em cubos",
+      "Em bowl, distribua todos ingredientes separados",
+      "Adicione homus no centro",
+      "Prepare molho tahine misturando todos ingredientes",
+      "Regue com molho tahine",
+      "Polvilhe gergelim por cima"
+    ],
+    "nutritionalInfo": {
+      "calories": 385,
+      "protein": "24g",
+      "carbs": "48g",
+      "fat": "12g"
+    },
+    "prepTime": 25,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Fácil",
+    "tags": ["vegetariano", "completo", "colorido", "vegano"],
+    "substitutions": {
+      "quinoa": "arroz integral ou farro",
+      "grão de bico": "tofu assado",
+      "couve roxa": "repolho roxo",
+      "tahine": "pasta de amendoim diluída"
+    }
+  },
+  {
+    "id": "86",
+    "name": "Omelete Suflê Fit",
+    "image": "/omelete-sufle.jpg",
+    "description": "Uma omelete leve e aerada, com claras em neve e queijo cottage, ideal para um café da manhã ou lanche proteico e sofisticado.",
+    "ingredients": [
+      "3 ovos (separar claras e gemas)",
+      "2 colheres de queijo cottage",
+      "1 colher de queijo ralado light",
+      "Sal, pimenta e noz moscada",
+      "Cebolinha picada",
+      "Azeite em spray"
+    ],
+    "instructions": [
+      "Separe claras das gemas",
+      "Bata as claras em neve até pico firme",
+      "Em outro bowl, misture gemas, cottage e temperos",
+      "Incorpore delicadamente claras às gemas",
+      "Aqueça frigideira antiaderente em fogo baixo",
+      "Despeje a mistura",
+      "Cozinhe tampado por 5-6min",
+      "Adicione queijo e cebolinha",
+      "Dobre ao meio cuidadosamente",
+      "Sirva imediatamente (não murcha)"
+    ],
+    "nutritionalInfo": {
+      "calories": 185,
+      "protein": "22g",
+      "carbs": "6g",
+      "fat": "8g"
+    },
+    "prepTime": 15,
+    "category": "Café da Manhã",
+    "portions": 1,
+    "difficulty": "Médio",
+    "tags": ["proteico", "fofo", "especial"],
+    "substitutions": {
+      "cottage": "ricota amassada",
+      "queijo ralado": "parmesão",
+      "cebolinha": "ervas finas"
+    }
+  },
+  {
+    "id": "87",
+    "name": "Cuscuz Marroquino com Vegetais",
+    "image": "/cuscuz-marroquino.jpg",
+    "description": "Um acompanhamento leve e saboroso, com cuscuz marroquino, vegetais frescos e temperos exóticos, perfeito para refeições ou saladas.",
+    "ingredients": [
+      "1 xícara de cuscuz marroquino",
+      "1 xícara de caldo de legumes quente",
+      "1 abobrinha em cubos",
+      "1 cenoura em cubos",
+      "1/2 xícara de grão de bico",
+      "Uvas passas",
+      "Amêndoas laminadas",
+      "Hortelã fresca",
+      "Cominho, canela e cúrcuma"
+    ],
+    "instructions": [
+      "Despeje caldo quente sobre o cuscuz",
+      "Tampe e deixe hidratar por 5min",
+      "Solte os grãos com garfo",
+      "Refogue abobrinha e cenoura rapidamente",
+      "Adicione grão de bico e temperos",
+      "Misture o cuscuz aos vegetais",
+      "Acrescente uvas passas",
+      "Torre as amêndoas levemente",
+      "Finalize com amêndoas e hortelã",
+      "Sirva quente ou frio"
+    ],
+    "nutritionalInfo": {
+      "calories": 165,
+      "protein": "6g",
+      "carbs": "32g",
+      "fat": "3g"
+    },
+    "prepTime": 20,
+    "category": "Acompanhamentos",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["vegetariano", "árabe", "exótico"],
+    "substitutions": {
+      "cuscuz": "quinoa",
+      "grão de bico": "lentilha",
+      "amêndoas": "castanhas ou nozes"
+    }
+  },
+  {
+    "id": "88",
+    "name": "Filé Mignon ao Molho Madeira Light",
+    "image": "/file-molho-madeira.jpg",
+    "description": "Filé mignon suculento com um molho madeira leve, cogumelos frescos e temperos aromáticos, ideal para uma refeição especial e saudável.",
+    "ingredients": [
+      "2 filés mignon (300g total)",
+      "150g de cogumelos fatiados",
+      "1/2 xícara de vinho madeira",
+      "1/2 xícara de caldo de carne",
+      "1 cebola pequena",
+      "1 colher de amido de milho",
+      "Sal, pimenta e tomilho",
+      "Azeite"
+    ],
+    "instructions": [
+      "Tempere os filés com sal e pimenta",
+      "Sele em frigideira bem quente (3min cada lado)",
+      "Retire os filés e mantenha aquecidos",
+      "Na mesma frigideira, refogue cebola",
+      "Adicione cogumelos e refogue 5min",
+      "Adicione vinho madeira e deixe reduzir",
+      "Acrescente caldo de carne",
+      "Dissolva amido em água fria e adicione",
+      "Cozinhe até engrossar levemente",
+      "Retorne os filés, adicione tomilho",
+      "Sirva com o molho por cima"
+    ],
+    "nutritionalInfo": {
+      "calories": 325,
+      "protein": "42g",
+      "carbs": "8g",
+      "fat": "14g"
+    },
+    "prepTime": 30,
+    "category": "Almoço/Jantar",
+    "portions": 2,
+    "difficulty": "Médio",
+    "tags": ["gourmet", "proteico", "especial"],
+    "substitutions": {
+      "filé mignon": "contra filé ou alcatra",
+      "vinho madeira": "vinho tinto seco",
+      "cogumelos": "champignon paris"
+    }
+  },
+  {
+    "id": "89",
+    "name": "Rocambole de Carne Moída Fit",
+    "image": "/rocambole-carne.jpg",
+    "description": "Um rocambole de carne moída magra recheado com queijo branco, espinafre e ovo cozido, uma refeição completa e nutritiva para toda a família.",
+    "ingredients": [
+      "600g de carne moída magra",
+      "3 ovos (2 para massa, 1 cozido)",
+      "3 colheres de aveia",
+      "1 cenoura ralada",
+      "100g de queijo branco",
+      "Espinafre refogado",
+      "Sal, pimenta e orégano",
+      "Molho de tomate para cobrir"
+    ],
+    "instructions": [
+      "Misture carne, 2 ovos, aveia e temperos",
+      "Abra a massa entre plásticos formando retângulo",
+      "Distribua espinafre, queijo e ovo cozido picado",
+      "Enrole como rocambole com ajuda do plástico",
+      "Transfira para assadeira forrada",
+      "Cubra com molho de tomate",
+      "Asse a 180°C por 35min",
+      "Deixe esfriar 10min antes de fatiar",
+      "Corte em rodelas e sirva"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "28g",
+      "carbs": "12g",
+      "fat": "10g"
+    },
+    "prepTime": 45,
+    "category": "Almoço/Jantar",
+    "portions": 6,
+    "difficulty": "Médio",
+    "tags": ["proteico", "marmita", "recheado"],
+    "substitutions": {
+      "carne moída": "frango moído",
+      "espinafre": "brócolis picado",
+      "queijo branco": "ricota"
+    }
+  },
+  {
+    "id": "90",
+    "name": "Smoothie Bowl Tropical",
+    "image": "/smoothie-bowl-tropical.jpg",
+    "description": "Um bowl refrescante e energizante com manga, banana, whey protein e leite de coco, decorado com granola, kiwi e sementes de chia, ideal para um café da manhã ou lanche tropical.",
+    "ingredients": [
+      "1 xícara de manga congelada",
+      "1/2 banana congelada",
+      "1 scoop de whey baunilha",
+      "100ml de leite de coco",
+      "Toppings: granola, coco ralado",
+      "Kiwi fatiado",
+      "Sementes de chia",
+      "Mel"
+    ],
+    "instructions": [
+      "Bata manga, banana, whey e leite até cremoso",
+      "Consistência deve ser grossa (não líquida)",
+      "Despeje em bowl",
+      "Decore metade com granola",
+      "Outra metade com frutas frescas",
+      "Adicione coco ralado",
+      "Polvilhe chia",
+      "Regue com fio de mel",
+      "Sirva imediatamente com colher"
+    ],
+    "nutritionalInfo": {
+      "calories": 285,
+      "protein": "18g",
+      "carbs": "48g",
+      "fat": "5g"
+    },
+    "prepTime": 10,
+    "category": "Café da Manhã",
+    "portions": 1,
+    "difficulty": "Muito Fácil",
+    "tags": ["tropical", "proteico", "instagram"],
+    "substitutions": {
+      "manga": "mamão ou abacaxi",
+      "leite coco": "iogurte grego",
+      "granola": "aveia em flocos"
+    }
+  },
+  {
+    "id": "91",
+    "name": "Tortinha de Limão Fitness",
+    "image": "/tortinha-limao.jpg",
+    "description": "Uma tortinha de limão leve e saborosa, com massa de aveia, recheio cremoso de limão e cobertura de merengue, perfeita para uma sobremesa sem culpa.",
+    "ingredients": [
+      "Massa: 1 xícara aveia, 2 col mel, 1 ovo",
+      "Recheio: 1 lata leite condensado light",
+      "Suco de 3 limões",
+      "Raspas de 1 limão",
+      "3 gemas",
+      "Cobertura: 3 claras em neve",
+      "2 colheres de eritritol"
+    ],
+    "instructions": [
+      "Pré-aqueça forno a 180°C",
+      "Misture ingredientes da massa e forre forma",
+      "Asse por 10min e deixe esfriar",
+      "Para recheio: misture leite condensado, suco, gemas",
+      "Despeje sobre massa e asse 15min",
+      "Bata claras em neve com eritritol",
+      "Cubra a torta com merengue",
+      "Asse mais 5min para dourar levemente",
+      "Leve à geladeira por 2h antes de servir"
+    ],
+    "nutritionalInfo": {
+      "calories": 155,
+      "protein": "8g",
+      "carbs": "20g",
+      "fat": "5g"
+    },
+    "prepTime": 30,
+    "category": "Sobremesas",
+    "portions": 8,
+    "difficulty": "Médio",
+    "tags": ["sobremesa", "cítrico", "festa"],
+    "substitutions": {
+      "leite condensado light": "leite condensado de coco",
+      "massa aveia": "massa de tapioca",
+      "limão": "maracujá"
+    }
+  },
+  {
+    "id": "92",
+    "name": "Yakissoba Fit de Frango",
+    "image": "/yakissoba-fit.jpg",
+    "description": "Um yakissoba saudável e saboroso com frango em tiras, macarrão integral e uma variedade de vegetais frescos, salteados em molho shoyu light.",
+    "ingredients": [
+      "300g de peito de frango em tiras",
+      "200g de macarrão integral ou shirataki",
+      "1 cenoura em julienne",
+      "1 xícara de brócolis",
+      "1/2 repolho fatiado fino",
+      "3 colheres de shoyu light",
+      "1 colher de gergelim",
+      "Gengibre e alho",
+      "Cebolinha"
+    ],
+    "instructions": [
+      "Cozinhe o macarrão al dente e escorra",
+      "Corte frango em tiras e tempere",
+      "Em wok ou frigideira grande, sele o frango",
+      "Retire e reserve",
+      "Refogue alho e gengibre rapidamente",
+      "Adicione cenoura, brócolis e repolho",
+      "Refogue em fogo alto por 3-4min",
+      "Retorne frango e macarrão",
+      "Adicione shoyu e misture bem",
+      "Finalize com gergelim e cebolinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 315,
+      "protein": "32g",
+      "carbs": "34g",
+      "fat": "8g"
+    },
+    "prepTime": 25,
+    "category": "Almoço/Jantar",
+    "portions": 3,
+    "difficulty": "Fácil",
+    "tags": ["asiático", "proteico", "completo"],
+    "substitutions": {
+      "frango": "camarão ou tofu",
+      "macarrão integral": "macarrão de arroz",
+      "shoyu": "molho teriyaki light"
+    }
+  },
+  {
+    "id": "93",
+    "name": "Beterraba Assada com Queijo de Cabra",
+    "image": "/beterraba-queijo-cabra.jpg",
+    "description": "Beterrabas assadas com queijo de cabra cremoso, rúcula fresca e nozes crocantes, regadas com azeite e vinagre balsâmico, um acompanhamento elegante e saboroso.",
+    "ingredients": [
+      "4 beterrabas médias",
+      "100g de queijo de cabra light",
+      "Rúcula fresca",
+      "Nozes picadas",
+      "2 colheres de azeite",
+      "1 colher de vinagre balsâmico",
+      "Mel",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Pré-aqueça forno a 200°C",
+      "Lave beterrabas e embrulhe em papel alumínio",
+      "Asse por 40-50min até macias",
+      "Deixe esfriar e descasque",
+      "Corte em fatias ou cubos",
+      "Disponha rúcula em prato",
+      "Adicione beterraba",
+      "Esfarele queijo de cabra por cima",
+      "Polvilhe nozes",
+      "Regue com azeite, vinagre e fio de mel"
+    ],
+    "nutritionalInfo": {
+      "calories": 145,
+      "protein": "7g",
+      "carbs": "18g",
+      "fat": "6g"
+    },
+    "prepTime": 50,
+    "category": "Acompanhamentos",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["vegetariano", "gourmet", "assado"],
+    "substitutions": {
+      "queijo cabra": "feta ou ricota",
+      "beterraba": "abóbora ou cenoura",
+      "nozes": "amêndoas ou castanhas"
+    }
+  },
+  {
+    "id": "94",
+    "name": "Empadão de Frango Fit",
+    "image": "/empadao-frango.jpg",
+    "description": "Um empadão de frango cremoso com massa de aveia, recheado com frango desfiado, vegetais e azeitonas, uma opção saudável e reconfortante para toda a família.",
+    "ingredients": [
+      "Massa: 2 xícaras aveia, 1 ovo, 1/4 xícara azeite",
+      "Recheio: 400g frango desfiado",
+      "1 cebola, 2 tomates",
+      "Milho e ervilha",
+      "Azeitonas",
+      "Sal, pimenta e salsinha",
+      "1 gema para pincelar"
+    ],
+    "instructions": [
+      "Pré-aqueça forno a 180°C",
+      "Para massa: bata aveia no liquidificador até virar farinha",
+      "Misture com ovo, azeite e sal",
+      "Amasse até dar liga",
+      "Forre forma com 2/3 da massa",
+      "Refogue frango com cebola, tomate e temperos",
+      "Adicione milho, ervilha e azeitonas",
+      "Despeje recheio sobre massa",
+      "Cubra com restante da massa",
+      "Pincele gema e asse 40min até dourar"
+    ],
+    "nutritionalInfo": {
+      "calories": 265,
+      "protein": "24g",
+      "carbs": "28g",
+      "fat": "8g"
+    },
+    "prepTime": 55,
+    "category": "Almoço/Jantar",
+    "portions": 8,
+    "difficulty": "Médio",
+    "tags": ["proteico", "festa", "tradicional"],
+    "substitutions": {
+      "aveia": "farinha de arroz",
+      "frango": "atum ou carne moída",
+      "azeite": "óleo de coco"
+    }
+  },
+  {
+    "id": "95",
+    "name": "Tofu Mexido Vegano",
+    "image": "/tofu-mexido.jpg",
+    "description": "Um tofu mexido saboroso e proteico, temperado com cúrcuma e páprica, com tomate e espinafre, uma alternativa vegana perfeita para ovos mexidos.",
+    "ingredients": [
+      "300g de tofu firme",
+      "1/2 cebola picada",
+      "1 tomate picado",
+      "1 colher de cúrcuma",
+      "1/2 colher de páprica",
+      "Sal negro (kala namak) opcional",
+      "Espinafre",
+      "Azeite",
+      "Cebolinha"
+    ],
+    "instructions": [
+      "Escorra e seque bem o tofu",
+      "Esmigalhe com garfo (textura de ovo mexido)",
+      "Aqueça azeite e refogue cebola",
+      "Adicione tofu esfarelado",
+      "Tempere com cúrcuma, páprica e sal",
+      "Mexa por 5min em fogo médio",
+      "Adicione tomate e espinafre",
+      "Cozinhe mais 3min",
+      "Finalize com cebolinha",
+      "Sirva com pão ou torradas"
+    ],
+    "nutritionalInfo": {
+      "calories": 195,
+      "protein": "18g",
+      "carbs": "8g",
+      "fat": "11g"
+    },
+    "prepTime": 12,
+    "category": "Café da Manhã",
+    "portions": 2,
+    "difficulty": "Fácil",
+    "tags": ["vegano", "proteico", "sem ovo"],
+    "substitutions": {
+      "tofu": "ovos (versão não vegana)",
+      "espinafre": "couve ou rúcula",
+      "sal negro": "sal comum (perde sabor de ovo)"
+    }
+  },
+  {
+    "id": "96",
+    "name": "Caldeirada de Frutos do Mar",
+    "image": "/caldeirada-frutos-mar.jpg",
+    "description": "Uma caldeirada rica e saborosa com peixe branco, camarão, lula, batatas e vegetais, cozida em leite de coco e temperos frescos, perfeita para uma refeição especial.",
+    "ingredients": [
+      "300g de peixe branco em postas",
+      "200g de camarão limpo",
+      "150g de lula em anéis",
+      "2 batatas em cubos",
+      "2 tomates",
+      "1 cebola",
+      "Pimentão",
+      "Coentro e cebolinha",
+      "Leite de coco light",
+      "Azeite"
+    ],
+    "instructions": [
+      "Refogue cebola, alho e pimentão",
+      "Adicione tomate picado",
+      "Acrescente batatas e água para cobrir",
+      "Cozinhe 10min até batata amolecer",
+      "Adicione peixe e cozinhe 5min",
+      "Acrescente camarão e lula",
+      "Cozinhe mais 3-4min",
+      "Adicione leite de coco",
+      "Tempere com sal e pimenta",
+      "Finalize com coentro e cebolinha"
+    ],
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": "32g",
+      "carbs": "18g",
+      "fat": "6g"
+    },
+    "prepTime": 35,
+    "category": "Sopas e Caldos",
+    "portions": 4,
+    "difficulty": "Médio",
+    "tags": ["frutos do mar", "proteico", "especial"],
+    "substitutions": {
+      "frutos do mar": "só peixe ou só camarão",
+      "batata": "mandioca ou inhame",
+      "leite de coco": "creme de leite light"
+    }
+  },
+  {
+    "id": "97",
+    "name": "Panna Cotta Proteica",
+    "image": "/panna-cotta-proteica.jpg",
+    "description": "Uma panna cotta leve e cremosa, feita com whey protein e leite desnatado, servida com calda de frutas vermelhas, uma sobremesa elegante e saudável.",
+    "ingredients": [
+      "2 xícaras de leite desnatado",
+      "2 scoops de whey baunilha",
+      "1 envelope de gelatina sem sabor",
+      "3 colheres de adoçante culinário",
+      "Essência de baunilha",
+      "Calda: frutas vermelhas com adoçante"
+    ],
+    "instructions": [
+      "Hidrate gelatina conforme embalagem",
+      "Aqueça metade do leite sem ferver",
+      "Dissolva gelatina no leite quente",
+      "Adicione restante do leite frio",
+      "Misture whey, adoçante e baunilha",
+      "Bata bem com fouet até incorporar",
+      "Distribua em forminhas ou tacinhas",
+      "Leve à geladeira por no mínimo 4h",
+      "Prepare calda cozinhando frutas com adoçante",
+      "Desenforme e sirva com calda de frutas"
+    ],
+    "nutritionalInfo": {
+      "calories": 125,
+      "protein": "15g",
+      "carbs": "12g",
+      "fat": "3g"
+    },
+    "prepTime": 15,
+    "category": "Sobremesas",
+    "portions": 4,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "italiano", "gelado", "elegante"],
+    "substitutions": {
+      "leite desnatado": "leite de amêndoas",
+      "whey": "colágeno hidrolisado",
+      "calda frutas": "coulis de chocolate"
+    }
+  },
+  {
+    "id": "98",
+    "name": "Pão de Queijo de Batata Doce",
+    "image": "/pao-queijo-batata-doce.jpg",
+    "description": "Pães de queijo caseiros e sem glúten, feitos com batata doce e polvilho, uma opção saudável e saborosa para o lanche.",
+    "ingredients": [
+      "1 xícara de batata doce cozida",
+      "1 ovo",
+      "3 colheres de polvilho doce",
+      "2 colheres de queijo parmesão",
+      "1/4 xícara de leite",
+      "Sal e orégano"
+    ],
+    "instructions": [
+      "Pré-aqueça forno a 180°C",
+      "Amasse bem a batata doce ainda morna",
+      "Adicione ovo e leite, misture",
+      "Acrescente polvilho aos poucos",
+      "Adicione queijo e temperos",
+      "Misture até dar liga",
+      "Unte forminhas de silicone",
+      "Distribua a massa",
+      "Asse por 25-30min até dourar",
+      "Sirva morno"
+    ],
+    "nutritionalInfo": {
+      "calories": 95,
+      "protein": "4g",
+      "carbs": "14g",
+      "fat": "3g"
+    },
+    "prepTime": 35,
+    "category": "Lanches/Snacks",
+    "portions": 12,
+    "difficulty": "Fácil",
+    "tags": ["sem glúten", "brasileiro", "lanche"],
+    "substitutions": {
+      "batata doce": "mandioca cozida",
+      "polvilho doce": "polvilho azedo",
+      "leite": "água"
+    }
+  },
+  {
+    "id": "99",
+    "name": "Caponata Italiana",
+    "image": "/caponata-italiana.jpg",
+    "description": "Uma caponata italiana saborosa e agridoce, com berinjela, tomate, cebola, aipo, azeitonas e alcaparras, perfeita como acompanhamento ou antepasto.",
+    "ingredients": [
+      "2 berinjelas em cubos",
+      "2 tomates picados",
+      "1 cebola roxa",
+      "2 talos de aipo",
+      "Azeitonas verdes",
+      "Alcaparras",
+      "2 colheres de vinagre",
+      "1 colher de mel",
+      "Manjericão fresco",
+      "Azeite"
+    ],
+    "instructions": [
+      "Corte berinjela, polvilhe sal e deixe 20min",
+      "Enxugue e refogue em azeite até dourar",
+      "Retire e reserve",
+      "Refogue cebola e aipo",
+      "Adicione tomate e cozinhe 5min",
+      "Acrescente vinagre e mel",
+      "Retorne berinjela",
+      "Adicione azeitonas e alcaparras",
+      "Cozinhe 10min em fogo baixo",
+      "Finalize com manjericão",
+      "Sirva frio ou temperatura ambiente"
+    ],
+    "nutritionalInfo": {
+      "calories": 115,
+      "protein": "3g",
+      "carbs": "16g",
+      "fat": "5g"
+    },
+    "prepTime": 40,
+    "category": "Acompanhamentos",
+    "portions": 6,
+    "difficulty": "Médio",
+    "tags": ["vegetariano", "italiano", "agridoce"],
+    "substitutions": {
+      "berinjela": "abobrinha",
+      "aipo": "pimentão verde",
+      "alcaparras": "azeitonas picadas"
+    }
+  },
+  {
+    "id": "100",
+    "name": "Bolo de Chocolate na Air Fryer",
+    "image": "/bolo-chocolate-airfryer.jpg",
+    "description": "Um bolo de chocolate proteico e sem glúten, feito na air fryer, uma sobremesa rápida e deliciosa para matar a vontade de doce.",
+    "ingredients": [
+      "1 xícara de aveia em flocos finos",
+      "3 colheres de cacau 100%",
+      "2 ovos",
+      "1/2 xícara de leite desnatado",
+      "1 scoop de whey chocolate",
+      "3 colheres de adoçante culinário",
+      "1 colher de fermento",
+      "Essência de baunilha",
+      "Gotas de chocolate 70%"
+    ],
+    "instructions": [
+      "Bata aveia no liquidificador até virar farinha",
+      "Em bowl, misture farinha de aveia, cacau e whey",
+      "Bata ovos com leite e adoçante",
+      "Misture ingredientes secos aos líquidos",
+      "Adicione baunilha e fermento por último",
+      "Acrescente gotas de chocolate",
+      "Despeje em forma que caiba na air fryer",
+      "Asse 160°C por 20min",
+      "Teste com palito",
+      "Deixe esfriar antes de desenformar"
+    ],
+    "nutritionalInfo": {
+      "calories": 175,
+      "protein": "10g",
+      "carbs": "24g",
+      "fat": "5g"
+    },
+    "prepTime": 25,
+    "category": "Sobremesas",
+    "portions": 6,
+    "difficulty": "Fácil",
+    "tags": ["proteico", "chocolate", "air fryer", "rápido"],
+    "substitutions": {
+      "air fryer": "forno 180°C por 25min",
+      "aveia": "farinha de amêndoas",
+      "whey": "cacau extra",
+      "leite": "café forte (bolo mocaccino)"
     }
   }
 ];
